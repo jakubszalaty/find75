@@ -1,0 +1,2577 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"call",
+				"callback"
+			],
+			[
+				"create",
+				"createThumb\t(ResourcesController.js)"
+			],
+			[
+				"Pro",
+				"Promise\tES6 Promise"
+			],
+			[
+				"usu",
+				"usunięta"
+			],
+			[
+				"last",
+				"lastLogin\t(AccountController.js)"
+			],
+			[
+				"sess",
+				"session"
+			],
+			[
+				"consol",
+				"console.log"
+			],
+			[
+				"des",
+				"destroy\t(AuthController.js)"
+			],
+			[
+				"post",
+				"postAll\t(ServerService.js)"
+			],
+			[
+				"theS",
+				"theSession\t(AuthController.js)"
+			],
+			[
+				"theSe",
+				"theSessions\t(AdminController.js)"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"ne",
+				"negotiate"
+			],
+			[
+				"find",
+				"findOrCreate"
+			],
+			[
+				"toke",
+				"tokenMe\t(AccountController.js)"
+			],
+			[
+				"Us",
+				"Usuń"
+			],
+			[
+				"theApi",
+				"theApiToken\t(ApiTokenController.js)"
+			],
+			[
+				"va",
+				"value\t(ApiToken.js)"
+			],
+			[
+				"Api",
+				"ApiToken\t(ApiTokenController.js)"
+			],
+			[
+				"Acc",
+				"Account\t(index.pug)"
+			],
+			[
+				"req",
+				"require\t(database.js)"
+			],
+			[
+				"def",
+				"defaultsTo\t(Account.js)"
+			],
+			[
+				"inac",
+				"inactive\t(AdminController.coffee)"
+			],
+			[
+				"stat",
+				"status"
+			],
+			[
+				"me",
+				"message"
+			],
+			[
+				"lang",
+				"language"
+			],
+			[
+				"la",
+				"language\t(testDatabase.json)"
+			],
+			[
+				"acc",
+				"account"
+			],
+			[
+				"Asa",
+				"AppSails"
+			],
+			[
+				"log",
+				"logout"
+			],
+			[
+				"desc",
+				"describe"
+			],
+			[
+				"le",
+				"length\t(AuthController.js)"
+			],
+			[
+				"ac",
+				"account\t(Account.js)"
+			],
+			[
+				"fun",
+				"function\t(AccountController.js)"
+			],
+			[
+				"deb",
+				"debugger\t(LoginController.coffee)"
+			],
+			[
+				"reg",
+				"region\t(Account.js)"
+			],
+			[
+				"en-u",
+				"en-US\t(index.pug)"
+			],
+			[
+				"set",
+				"setPassword"
+			],
+			[
+				"su",
+				"success\t(AuthController.js)"
+			],
+			[
+				"in",
+				"inactive"
+			],
+			[
+				"ch",
+				"catch\t(AuthController.js)"
+			],
+			[
+				"Compi",
+				"Compile"
+			],
+			[
+				"use",
+				"user\tlet"
+			],
+			[
+				"let",
+				"left\t(DashboardController.coffee)"
+			],
+			[
+				"gre",
+				"greeter\tfunction"
+			],
+			[
+				"e",
+				"email"
+			],
+			[
+				"Send",
+				"SendConfirmCtrl\t(app-sails-utility.coffee)"
+			],
+			[
+				"ca",
+				"catch"
+			],
+			[
+				"confi",
+				"confirm\t(AuthController.js)"
+			],
+			[
+				"Con",
+				"ConfirmationController\t(ConfirmationController.coffee)"
+			],
+			[
+				"che",
+				"checkToken"
+			],
+			[
+				"acti",
+				"activated\t(AuthController.js)"
+			],
+			[
+				"check",
+				"checkToken\t(AuthController.js)"
+			],
+			[
+				"pas",
+				"password"
+			],
+			[
+				"act",
+				"active\t(Account.js)"
+			],
+			[
+				"activ",
+				"activate\t(notaki module)"
+			],
+			[
+				"api",
+				"apiUrl"
+			],
+			[
+				"sed",
+				"sendSuccess\t(AppController.js)"
+			],
+			[
+				"loc",
+				"location\t(app-sails-utility.coffee)"
+			],
+			[
+				"NEws",
+				"NewsCtrl\t(app-sails-utility.coffee)"
+			],
+			[
+				"new",
+				"newsletter\t(AppController.js)"
+			],
+			[
+				"Model",
+				"ModelCtrl\t(app-sails-utility.coffee)"
+			],
+			[
+				"err",
+				"error"
+			],
+			[
+				"res",
+				"response"
+			],
+			[
+				"cle",
+				"clearModel\t(AdminController.js)"
+			],
+			[
+				"obj",
+				"object"
+			],
+			[
+				"ass",
+				"associations\t(ModelEditController.coffee)"
+			],
+			[
+				"ui",
+				"ui-sref\t(modelList.pug)"
+			],
+			[
+				"ModelEd",
+				"ModelEditCtrl\t(app-sails-utility.coffee)"
+			],
+			[
+				"back",
+				"background-img\t(admin.pug)"
+			],
+			[
+				"Ad",
+				"AdminCtrl\t(app-sails-utility.coffee)"
+			],
+			[
+				"loca",
+				"location"
+			],
+			[
+				"dec",
+				"decrypt"
+			],
+			[
+				"sty",
+				"stylesheet\t(index.haml)"
+			],
+			[
+				"node_",
+				"node_modules\t(package.json)"
+			],
+			[
+				"passportSe",
+				"passportSetup"
+			],
+			[
+				"afr",
+				"afterCreate"
+			],
+			[
+				"pro",
+				"provider"
+			],
+			[
+				"de",
+				"default\t(http.js)"
+			],
+			[
+				"authent",
+				"authenticated\t(sessionAuth.js)"
+			],
+			[
+				"PC_SUP",
+				"PC_SUPER_LEVEL2"
+			],
+			[
+				"ser",
+				"service\t(art112_ansible_learn.md)"
+			],
+			[
+				"edi",
+				"edit-json.coffee"
+			],
+			[
+				"print",
+				"printKeys"
+			],
+			[
+				"unde",
+				"undefined"
+			],
+			[
+				"arg",
+				"argv"
+			],
+			[
+				"conso",
+				"console.log"
+			],
+			[
+				"send",
+				"sendemail"
+			],
+			[
+				"webele",
+				"webelements_paths"
+			],
+			[
+				"source",
+				"sourcePaths"
+			],
+			[
+				"rela",
+				"relative\t(gulpfile.coffee)"
+			],
+			[
+				"sou",
+				"source_path"
+			],
+			[
+				"Re",
+				"RegExp\t(gulpfile.coffee)"
+			],
+			[
+				"dat",
+				"dataentry4\t(gulpfile.coffee)"
+			],
+			[
+				"bower",
+				"bowerPath"
+			],
+			[
+				"prod",
+				"productionMode\t(gulpfile.coffee)"
+			],
+			[
+				"bowe",
+				"bowerPath"
+			],
+			[
+				"dest",
+				"destName"
+			],
+			[
+				"start",
+				"start_path"
+			],
+			[
+				"env",
+				"environment"
+			],
+			[
+				"pull",
+				"pull_with_dep"
+			],
+			[
+				"k",
+				"kontrolery"
+			],
+			[
+				"repo",
+				"repo_name\t(92_webelement_action.sh)"
+			],
+			[
+				"iuw__",
+				"iuw_____install_hack__________________________00"
+			],
+			[
+				"al",
+				"alias"
+			],
+			[
+				"im",
+				"im_webelements_compiler\t(to do.todo)"
+			],
+			[
+				"im_",
+				"im_webelements"
+			],
+			[
+				"node_e",
+				"node_express_polymer"
+			],
+			[
+				"sour",
+				"sourcePath"
+			],
+			[
+				"com",
+				"components"
+			],
+			[
+				"compo",
+				"component_template"
+			],
+			[
+				"parse",
+				"parse_ip"
+			],
+			[
+				"haml",
+				"haml"
+			],
+			[
+				"mje",
+				"miejsca"
+			],
+			[
+				"Inst",
+				"InstantPosts"
+			],
+			[
+				"get",
+				"getInstantPost"
+			],
+			[
+				"fe",
+				"fetchAll"
+			],
+			[
+				"inde",
+				"indeksie\t(componentFinder.js)"
+			],
+			[
+				"result",
+				"resultElem"
+			],
+			[
+				"insta",
+				"instagramLink\t(instagramLink.js)"
+			],
+			[
+				"resul",
+				"results"
+			],
+			[
+				"met",
+				"method"
+			],
+			[
+				"meto",
+				"metode"
+			],
+			[
+				"cono",
+				"console.log\t(index.js)"
+			],
+			[
+				"console",
+				"console.log\t(index.js)"
+			],
+			[
+				"promi",
+				"promises"
+			],
+			[
+				"value",
+				"values"
+			],
+			[
+				"test",
+				"testMethod"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "readme.md",
+			"settings":
+			{
+				"buffer_size": 254,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "# Znajdz 75"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/JSHint/JSHint.sublime-build",
+					""
+				],
+				[
+					"Packages/User/nodejs.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/nodejs.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "du",
+		"selected_items":
+		[
+			[
+				"du",
+				"File: Duplicate"
+			],
+			[
+				"re",
+				"File: Rename"
+			],
+			[
+				"move",
+				"File: Move"
+			],
+			[
+				"d",
+				"File: Duplicate"
+			],
+			[
+				"dele",
+				"File: Delete"
+			],
+			[
+				"refa",
+				"Text Refactor: Extract Method"
+			],
+			[
+				"git compare",
+				"GitGutter: Compare Against Commit"
+			],
+			[
+				"git dif",
+				"Git: Diff Current File"
+			],
+			[
+				"git log",
+				"Git: Log Current File"
+			],
+			[
+				"y",
+				"Set Syntax: YAML"
+			],
+			[
+				"dle",
+				"File: Delete"
+			],
+			[
+				"yam",
+				"Set Syntax: YAML"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript Next"
+			],
+			[
+				"git show",
+				"Git: Show Current File"
+			],
+			[
+				"git shiw",
+				"Git: Show Current File"
+			],
+			[
+				"enable pro",
+				"tern_for_sublime: Enable Project"
+			],
+			[
+				"typesc",
+				"Set Syntax: TypeScript"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"disal",
+				"Package Control: Disable Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript Next"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"de",
+				"File: Delete"
+			],
+			[
+				"dee",
+				"Plugin Development: Profile Events"
+			],
+			[
+				"clo",
+				"Project: Close"
+			],
+			[
+				"disable ",
+				"SublimeLinter: Disable Linter"
+			],
+			[
+				"disabl",
+				"SublimeLinter: Disable Linter"
+			],
+			[
+				"enab",
+				"SublimeLinter: Enable Linter"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"delet",
+				"File: Delete"
+			],
+			[
+				"pug",
+				"Set Syntax: Pug"
+			],
+			[
+				"upp",
+				"Convert Case: Upper Case"
+			],
+			[
+				"git modi",
+				"Git: Open Modified Files"
+			],
+			[
+				"git c",
+				"Git: Checkout Current File"
+			],
+			[
+				"gitche",
+				"Git: Checkout Current File"
+			],
+			[
+				"diff",
+				"Git: Diff Tool Current File"
+			],
+			[
+				"dif",
+				"Git: Diff Tool All"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"close",
+				"Project: Close"
+			],
+			[
+				"show",
+				"Git: Show Current File"
+			],
+			[
+				"mov",
+				"File: Move"
+			],
+			[
+				"haml",
+				"Set Syntax: Ruby Haml"
+			],
+			[
+				"ren",
+				"File: Rename"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"cofeeh",
+				"Set Syntax: Coffee Haml"
+			],
+			[
+				"del",
+				"File: Delete"
+			],
+			[
+				"git comm",
+				"Git: Quick Commit (current file)"
+			],
+			[
+				"commi",
+				"Git: Commit"
+			],
+			[
+				"ej",
+				"Set Syntax: EJS (<% and %>)"
+			],
+			[
+				"jsne",
+				"Set Syntax: JavaScript Next"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"lwoe",
+				"Convert Case: Lower Case"
+			],
+			[
+				"ash",
+				"Git: Add Selected Hunk"
+			],
+			[
+				"bahs",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"perl",
+				"Set Syntax: Perl"
+			],
+			[
+				"late",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"mo",
+				"File: Move"
+			],
+			[
+				"stat",
+				"Git: Status"
+			],
+			[
+				"git b",
+				"Git: Blame"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"dup",
+				"File: Duplicate"
+			],
+			[
+				"git hce",
+				"Git: Checkout Current File"
+			],
+			[
+				"git che",
+				"Git: Checkout Current File"
+			],
+			[
+				"git sho",
+				"Git: Show Current File"
+			],
+			[
+				"git chec",
+				"Git: Checkout Current File"
+			],
+			[
+				"git hsow",
+				"Git: Show Current File"
+			],
+			[
+				"enabl",
+				"SublimeLinter: Enable Linter"
+			],
+			[
+				"terminal",
+				"Terminal: Open"
+			],
+			[
+				"syntaxno",
+				"Set Syntax: EditorConfig"
+			],
+			[
+				"synax pla",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"syntax log",
+				"Set Syntax: LaTeX Log"
+			],
+			[
+				"git fiff",
+				"Git: Diff Current File"
+			],
+			[
+				"git ce",
+				"Git: Checkout Current File"
+			],
+			[
+				"git lgo",
+				"Git: Log Current File"
+			],
+			[
+				"git bla",
+				"Git: Blame"
+			],
+			[
+				"coffe",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"jasv",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"jas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"di",
+				"Git: Diff Current File"
+			],
+			[
+				"pack li",
+				"Package Control: List Packages"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"git pu",
+				"Git: Push"
+			],
+			[
+				"git pull",
+				"Git: Pull"
+			],
+			[
+				"cof",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"duf",
+				"Git: Diff Current File"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"lint",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"lis pack",
+				"Package Control: List Packages"
+			],
+			[
+				"lispa",
+				"Package Control: List Packages"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"pack l",
+				"Package Control: List Packages"
+			],
+			[
+				"git sta",
+				"Git: Status"
+			],
+			[
+				"listpac",
+				"Package Control: List Packages"
+			],
+			[
+				"plain",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"log",
+				"Set Syntax: LaTeX Log"
+			],
+			[
+				"pla",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"git p",
+				"Git: Push"
+			],
+			[
+				"up",
+				"Convert Case: Upper Case"
+			],
+			[
+				"git blam",
+				"Git: Blame"
+			],
+			[
+				"lintner",
+				"SublimeLinter: Enable Linter"
+			],
+			[
+				"previe",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"git hceck",
+				"Git: Checkout Current File"
+			],
+			[
+				"mar",
+				"Set Syntax: Markdown"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"setmar",
+				"Set Syntax: Markdown"
+			],
+			[
+				"semark",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"pack d",
+				"Package Control: Disable Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"setsyntax mar",
+				"Set Syntax: Markdown"
+			],
+			[
+				"pack remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"set syntax mar",
+				"Set Syntax: Markdown"
+			],
+			[
+				"html2",
+				"HTML2Haml: Convert selection"
+			],
+			[
+				"git pus",
+				"Git: Push"
+			],
+			[
+				"en",
+				"Package Control: Enable Package"
+			],
+			[
+				"git stas",
+				"Git: Stash Apply"
+			],
+			[
+				"git stash",
+				"Git: Stash Changes"
+			],
+			[
+				" dele",
+				"File: Delete"
+			],
+			[
+				"git cch",
+				"Git: Checkout Current File"
+			],
+			[
+				"git",
+				"Git: Commit history"
+			],
+			[
+				"gitcur",
+				"Git: Log Current File"
+			],
+			[
+				"git cur",
+				"Git: Log Current File"
+			],
+			[
+				"newfolder",
+				"File: New Folder Relative to Current View"
+			],
+			[
+				"lin",
+				"SublimeLinter: Next Error"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"git cu",
+				"Git: Log Current File"
+			]
+		],
+		"width": 601.0
+	},
+	"console":
+	{
+		"height": 298.0,
+		"history":
+		[
+			"self.window.active_view()",
+			"current_date",
+			"print \"No activity in the past 1000ms\"  ",
+			"print \"siema\"",
+			"print 'siema';",
+			"print 'siema'",
+			"print siema",
+			"print a",
+			"a= str('siema\\n')",
+			"print a",
+			"a= str('siema')",
+			"str('siema')",
+			"str('a')",
+			"print 'siema'",
+			"print",
+			"print \"siema\"",
+			"print siema",
+			"p siema",
+			"0==0",
+			"1==0",
+			"subprocess.call(\"source $HOME/.zshenv; source $im_base_path/im_admins/im_aliases/53_copy_here_last_print_screened_photo.sh im_admins true\",shell=True,executable=\"/bin/zsh\")",
+			"view.run_command(\"copy_last_screenshot\")",
+			"view.run_command(\"copy_last_screen_shot\")",
+			"subprocess.call(\"source $HOME/.zshenv; source $im_base_path/im_admins/im_aliases/53_copy_here_last_print_screened_photo.sh im_admins true\",shell=True,executable=\"/bin/zsh\")",
+			"subprocess.call(\"source $HOME/.zshenv; source $im_base_path/im_admins/im_aliases/53_copy_here_last_print_screened_photo.sh im_admins\",shell=True,executable=\"/bin/zsh\")",
+			"subprocess.call(\"source $HOME/.zshenv; source $im_base_path/im_admins/im_aliases/53_copy_here_last_print_screened_photo.sh im_admins true\",shell=True,executable=\"/bin/zsh\")",
+			"subprocess.call(\"source $HOME/.zshenv; source $im_base_path/im_admins/im_aliases/53_copy_here_last_print_screened_photo.sh im_admins\",shell=True,executable=\"/bin/zsh\")",
+			"import subprocess",
+			"subprocess.call(\"source $HOME/.zshenv; source $im_base_path/im_admins/im_aliases/53_copy_here_last_print_screened_photo.sh im_admins\",shell=True,executable=\"/bin/zsh\")",
+			"subprocess.check_output(\"source $HOME/.zshenv; echo $im_base_path/im_admins/im_aliases/53_copy_here_last_print_screened_photo.sh im_admins\",shell=True,executable=\"/bin/zsh\")",
+			"subprocess.check_output(\"source $HOME/.zshenv; echo $im_base_path/im_admins/im_aliasis;\",shell=True,executable=\"/bin/zsh\")",
+			"subprocess.check_output(\"source $HOME/.zshenv; echo $im_base_path;\",shell=True,executable=\"/bin/zsh\")",
+			"subprocess.check_output(\"source $HOME/.zshrc; echo $im_base_path;\",shell=True,executable=\"/bin/zsh\")",
+			"subprocess.check_output(\"source $HOME/.zshrc;\",shell=True,executable=\"/bin/zsh\")",
+			"subprocess.check_output(\"source $HOME/.zshrc\",shell=True,executable=\"/bin/zsh\")",
+			"subprocess.check_output(\"ps\",shell=True,executable=\"/bin/zsh\")",
+			"subprocess.check_output(\"node\",shell=True,executable='/bin/zsh')",
+			"subprocess.check_output(\"gss\",shell=True,executable='/bin/zsh')",
+			"subprocess.check_output(\"ipw00_________________________start_______________________00\",shell=True,executable='/bin/zsh')",
+			"subprocess.check_output(\"ls\",shell=True,executable='/bin/zsh')",
+			"subprocess.check_output(\"echo $im_base_path\",shell=True,executable='/bin/zsh')",
+			"subprocess.check_output(\"echo kuba\",shell=True,executable='/bin/zsh')",
+			"subprocess.call(\"echo kuba\",shell=True,executable='/bin/zsh')",
+			"os.system(\"google-chrome ${YELLOW}\")",
+			"os.system(\"google-chrome $im_base_path\")",
+			"os.system(\"google-chrome $im_base_path\", shell=True)",
+			"os.system(\"google-chrome $im_base_path\")",
+			"os.system(\"google-chrome $HOME\")",
+			"os.system(\"echo $HOME\")",
+			"import os",
+			"subprocess.check_output([\"source $HOME/.zshrc && echo $im_base_path aa\"], shell=True)",
+			"subprocess.check_output([\"source $HOME/.zshrc; echo $im_base_path aa\"], shell=True)",
+			"subprocess.check_output([\"source $HOME/.zshrc; echo $im_base_path\"], shell=True)",
+			"subprocess.check_output([\"$HOME\"], shell=True)",
+			"subprocess.check_output([\"google-chrome $HOME\"], shell=True)",
+			"subprocess.check_output([\"google-chrome $im_bash_path\"], shell=True)",
+			"subprocess.check_output([\"google-chrome $HOME\"], shell=True)",
+			"subprocess.check_output([\"google-chrome $cpa\"], shell=True)",
+			"subprocess.check_output([\"google-chrome $cp\"], shell=True)",
+			"subprocess.check_output([\"google-chrome $PWD\"], shell=True)",
+			"subprocess.check_output([\"google-chrome http://wp.pl\"], shell=True)",
+			"subprocess.check_output([\"google-chrome\", \"http://wp.pl\"], shell=True)",
+			"subprocess.check_output([\"google-chrome\", \"aaa\"], shell=True)",
+			"subprocess.check_output([\"google-chrome\", \"~/\"], shell=True)",
+			"subprocess.check_output([\"google-chrome\", \"\"], shell=True)",
+			"subprocess.check_output([\"echo\", \"~/a\"], shell=True)",
+			"subprocess.check_output([\"echo\", \"~/\"], shell=True)",
+			"subprocess.check_output([\"echo\", \"$path\"], shell=True)",
+			"subprocess.check_output([\"echo\", \"$PWD\"], shell=True)",
+			"subprocess.check_output([\"echo\", \"$PWD\"], shell=True, universal_newlines=True)",
+			"subprocess.check_output([\"echo\", \"$PWD\"], universal_newlines=True)",
+			"subprocess.check_output([\"echo\", \"$PWD\"], universal_newlines=True, shell=True)",
+			"subprocess.check_output([\"echo\", \"'simea'\"], universal_newlines=True, shell=True)",
+			"subprocess.check_output([\"echo\", \"simea\"], universal_newlines=True, shell=True)",
+			"subprocess.check_output([\"ls\", \"-l\"], universal_newlines=True, shell=True)",
+			"subprocess.check_output([\"ls\", \"a\"], universal_newlines=True, shell=True)",
+			"subprocess.check_output([\"ls\", \"\"], universal_newlines=True, shell=True)",
+			"subprocess.check_output([\"ls\", \"l\"], universal_newlines=True, shell=True)",
+			"subprocess.check_output([\"echo\", \"~/\"], universal_newlines=True, shell=True)",
+			"subprocess.check_output([\"echo\", \".\"], universal_newlines=True, shell=True)",
+			"subprocess.check_output([\"echo\", \".\"], universal_newlines=True)",
+			"subprocess.check_output([\"echo\", \"~/\"], universal_newlines=True)",
+			"subprocess.check_output([\"echo\", \"kuba!\"], universal_newlines=True)",
+			"subprocess.check_output([\"echo $path\"], universal_newlines=True)",
+			"subprocess.check_output([\"echo\", \"$path\"], universal_newlines=True)",
+			"subprocess.check_output([\"echo\", \"kuba!\"], universal_newlines=True)",
+			"subprocess.check_output([\"echo\", \"Hello World!\"], universal_newlines=True)",
+			"subprocess.check_output([\"echo\", \"Hello World!\"], universal_newlines=True",
+			"subprocess.check_output([\"echo\", \"siema\"])",
+			"subprocess.check_output([\"echo\", \"$PWD\"])",
+			"subprocess.check_output([\"echo\", \"$cp\"])",
+			"subprocess.check_output([\"echo\", \"Hello World!\"])",
+			"import subprocess; subprocess.check_output([\"echo\", \"Hello World!\"])",
+			"import subprocess; subprocess.call([\"echo $im_base_path\"], shell=True)",
+			"import subprocess; subprocess.call([\"google-chrome $im_base_path\"], shell=True)",
+			"view.run_command(\"current_date\")",
+			"view.run_command(\"example\")",
+			"now = datetime.datetime.now(); now.strftime(\"[%Y-%m-%d %H:%M]\")",
+			"now = datetime.datetime.now(); now.strftime(\"%Y-%m-%d %H:%M\")",
+			"now = datetime.datetime.now(); now.strftime(\"%d %Y-%m-%d %H:%M\")",
+			"now = datetime.datetime.now(); now.strftime(\"%dd %Y-%m-%d %H:%M\")",
+			"now = datetime.datetime.now(); now.strftime(\"%D %Y-%m-%d %H:%M\")",
+			"now = datetime.datetime.now(); now.strftime(\"%Y-%m-%d %H:%M\")",
+			"import datetime",
+			"view.run_command(\"example\")",
+			"now.strftime(\"%Y-%m-%d %H:%M\")",
+			"now = datetime.datetime.now()",
+			"now.strftime(\"%Y-%m-%d %H:%M\")",
+			"str(datetime.datetime.now())",
+			"datetime.datetime.now()",
+			"import datetime",
+			"datetime.datetime.now()",
+			"date",
+			"view.run_command(\"install_package\")",
+			"subprocess.call([\"google-chrome $PWD\"], shell=True)",
+			"subprocess.call([\"echo siema > ~/kuba && nautilus ~/\"], shell=True)",
+			"subprocess.call([\"google-chrome $PWD\"], shell=True)",
+			"subprocess.call([\"google-chrome\"], shell=True)",
+			"subprocess.call([\"echo siema > kuba && nautilus .\"], shell=True)",
+			"subprocess.call([\"echo siema > kuba && subl kuba\"])",
+			"subprocess.call([\"echo siema > kuba && subl kuba\"], shell=True)",
+			"subprocess.call([\"echo siema\"], shell=True)",
+			"subprocess.call([\"echo\", i], shell=True)",
+			"subprocess.call([\"echo\", \"siema\"], shell=True)",
+			"ubprocess.call([\"echo\", \"siema\"], shell=True)",
+			"import subprocess",
+			"subprocess",
+			"view.keys"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/kuba/znajdz75"
+	],
+	"file_history":
+	[
+		"/home/kuba/im_machines/instant_post_app/sails-utility/config/policies.js",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/api/services/ServerService.js",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/api/services/EmailService.js",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/api/services/ResourcesService.js",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/api/controllers/AdminController.js",
+		"/home/kuba/im_machines/instant_post_app/utilities/sails-shared/services/EmailService.js",
+		"/home/kuba/im_machines/instant_post_app/sails-app/api/models/FileStorage.js",
+		"/home/kuba/im_machines/instant_post_app/sails-app/api/models/Video.js",
+		"/home/kuba/im_machines/instant_post_app/im-angular/components/sails-app/views/partial/account.pug",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/api/controllers/AccountController.js",
+		"/home/kuba/im_machines/instant_post_app/im-angular/components/sails-app/controllers/AccountController.coffee",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/assets/locale/locale-pl.yml",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/assets/locale/locale-en.yml",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/config/routes.js",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/assets/webelements/im-app-header-layout/im-webelement-im-app-header-layout.haml",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/api/models/Session.js",
+		"/home/kuba/im_machines/instant_post_app/im-angular/components/sails-app/controllers/AdminController.coffee",
+		"/home/kuba/im_machines/instant_post_app/im-angular/components/sails-app/views/partial/admin.pug",
+		"/home/kuba/im_machines/instant_post_app/im-angular/components/sails-app/views/partial/dashboard.pug",
+		"/home/kuba/im_machines/instant_post_app/utilities/sails-shared/services/ManageService.js",
+		"/home/kuba/im_machines/instant_post_app/im-angular/app-sails-utility.coffee",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/config/autoreload.js",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/api/services/ManageService.js",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/api/controllers/AppController.js",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/config/session.js",
+		"/home/kuba/im_machines/instant_post_app/im-angular/components/sails-app/controllers/ManageServersController.coffee",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/views/app/index.pug",
+		"/home/kuba/im_machines/instant_post_app/im-angular/node_modules/jquery/AUTHORS.txt",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/config/http.js",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/api/models/Account.js",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/api/policies/tokenAuth.js",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/package.json",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/api/controllers/AuthController.js",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/config/cors.js",
+		"/home/kuba/im_machines/instant_post_app/utilities/sails-shared/services/TokenAuth.js",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/api/models/ApiToken.js",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/api/services/TokenAuth.js",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/api/controllers/ApiTokenController.js",
+		"/home/kuba/im_machines/instant_post_app/sails-app/.zsh_history",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/.gitignore",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/assets/im-angular/components/sails-app/views/partial/account.pug",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/assets/im-angular/components/sails-app/controllers/AccountController.coffee",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/assets/webelements/im-main-card/bower_components/lodash/lodash.js",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/api/policies/sessionAuth.js",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/config/database.js",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/assets/im-angular/app-sails-utility.coffee",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/assets/im-angular/components/sails-app/views/partial/admin.pug",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/api/services/TokenAuthService.js",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/assets/im-angular/components/sails-app/controllers/AdminController.coffee",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/api/services/ElasticEmailService.js",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/assets/im-angular/components/sails-app/services/sailsUtilityApiService.coffee",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/assets/im-angular/app-sails.coffee",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/api/services/CryptService.js",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/db/predefinedAccounts.json",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/assets/im-angular/components/sails-app/controllers/ManageServersController.coffee",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/assets/im-angular/components/node-ip/controllers/DashboardController.coffee",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/assets/im-angular/components/sails-app/views/partial/modelList.pug",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/assets/im-angular/components/sails-app/views/partial/manageServers.pug",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/assets/im-angular/components/sails-app/views/partial/modelEdit.pug",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/assets/im-angular/components/sails-app/controllers/ModelEditController.coffee",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/assets/im-angular/components/sails-app/controllers/ModelController.coffee",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/db/baseData.json",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/test/testDatabase.json",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/test/bootstrap.test.js",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/test/integration/scenario/AccountLocal.test.js",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/test/integration/scenario/AccountLocalRegister.test.js",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/test/integration/models/Account.test.js",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/config/connections.js",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/assets/im-angular/components/sails-app/controllers/ConfirmationController.coffee",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/assets/im-angular/components/sails-app/views/partial/confirmation.pug",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/assets/im-angular/components/sails-app/controllers/LoginController.coffee",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/test/mocha.opts",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/assets/im-angular/components/sails-app/controllers/RegisterController.coffee",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/tasks/register/default.js",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/tasks/register/watch.js",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/tasks/register/build.js",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/tasks/config/yaml.js",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/tasks/config/copy.js",
+		"/home/kuba/im_machines/instant_post_app/sails-app/assets/locale/locale-en.yml",
+		"/home/kuba/im_machines/instant_post_app/sails-app/assets/locale/locale-pl.yml",
+		"/home/kuba/im_machines/instant_post_app/sails-app/assets/locale/locale-pl.json",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/assets/locale/locale-de.yml",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/tasks/config/pug.js",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/tasks/config/typescript.js",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/assets/im-angular/demos/angular-material-sails.pug",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/assets/locale/locale-pl.json",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/config/models.js",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/assets/im-angular/components/sails-app/views/partial/setPassword.pug",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/assets/im-angular/components/sails-app/controllers/SetPasswordController.coffee",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/assets/im-angular/components/sails-app/views/partial/login.pug",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/assets/locale/locale-en.json",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/gulpfile.js",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/config/bootstrap.js",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/app.js",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/assets/im-angular/components/sails-app/controllers/ResetPasswordController.coffee",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/assets/im-angular/components/sails-app/views/partial/resetPassword.pug",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/assets/im-angular/components/sails-app/views/partial/register.pug",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/assets/im-angular/components/sails-app/controllers/SendConfirmController.coffee",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/tasks/config/coffee.js",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/assets/im-angular/components/sails-app/controllers/NewsletterController.coffee",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/tasks/config/clean.js",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/tasks/config/scss.js",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/assets/js/global.coffee",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/assets/js/locale.ts",
+		"/home/kuba/im_machines/instant_post_app/sails-app/package.json",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/assets/im-angular/components/sails-app/views/partial/sendConfirmation.pug",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/assets/im-angular/components/sails-app/views/partial/dashboard.pug",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/assets/im-angular/components/sails-app/controllers/DashboardController.coffee",
+		"/home/kuba/Dropbox/configs/sublime-text-3/Packages/User/Tern.sublime-settings",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/assets/im-angular/src/css/style.scss",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/assets/js/local.ts",
+		"/home/kuba/studia/kck/HCI-l.txt",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/assets/im-angular/components/sails-app/views/partial/registerSocial.pug",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/views/utility/newsletter.pug",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/notaki module",
+		"/home/kuba/.eslintrc.json",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/assets/im-angular/components/sails-app/views/partial/newsletter.pug",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/api/controllers/MainController.js",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/views/utility/thankyou.pug",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/views/utility/sendSuccess.pug",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/assets/webelements/imports.html",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/api/controllers/ElasticEmailController.js",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/api/policies/isAdmin.js",
+		"/home/kuba/whyzut-web/index.html",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/assets/im-angular/components/sails-app/controllers/IndexIPController.coffee",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/api/policies/isSocket.js",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/.tmp/public/assets/components/sails-app/controllers/ModelEditController.js",
+		"/home/kuba/im_machines/instant_post_app/sails-utility/assets/webelements/im-iron-swipeable-pages/im-webelement-im-iron-swipeable-pages.html"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"",
+			"*coffee*",
+			"",
+			"*/models/*",
+			"*models*",
+			"",
+			"*js*",
+			"",
+			"*js*",
+			"",
+			"*coffee*",
+			"",
+			"*/attached_files/*",
+			"*attached_files*",
+			"*.sh*",
+			"*sh*",
+			"",
+			"*sh*",
+			"",
+			"*js*",
+			"*js*,",
+			"*js*",
+			"",
+			"*js*",
+			"*haml*",
+			"",
+			"*css*",
+			"",
+			"*css*",
+			"",
+			"*haml*",
+			"*css*",
+			"*haml*",
+			"*css*",
+			"*haml*",
+			"",
+			"*haml*",
+			"",
+			"-/docker/wp*",
+			"-/docker/wp*, *haml*",
+			"-/docker/wp*",
+			"-/docker/wp*, *css*",
+			"-/docker/wp*",
+			"-/docker/wp*, *css*",
+			"-/docker/wp*, *haml*",
+			"-/docker/wp*,",
+			"-/docker/wp*, *haml*",
+			"-/docker/wp*",
+			"-/docker/wp*, *haml*",
+			"-/docker/wp*, *css*",
+			"-/docker/wp*",
+			"-/docker/wp*, *html*",
+			"-/docker/wp*, *css*",
+			"-/docker/wp*, *haml*",
+			"-/docker/wp*, *css*",
+			"-/docker/wp*, *haml*",
+			"-/docker/wp*, *css*",
+			"-/docker/wp*, *haml*",
+			"-/docker/wp*",
+			"-/docker/wp*, *haml*",
+			"-/docker/wp*",
+			"-/docker/wp*, *haml*",
+			"-/docker/wp*",
+			"-/docker/wp*,*haml*",
+			"-/docker/wp*,",
+			"-/docker/wp*,*js*",
+			"-/docker/wp*,",
+			"-/docker/wp*, *haml*",
+			"-/docker/wp*",
+			"-/docker/wp*, *css*",
+			"-/docker/wp*, *html*",
+			"-/docker/wp*, *haml*",
+			"-/docker/wp*, *html*",
+			"-/docker/wp*",
+			"-/docker/wp*, *html*",
+			"-/docker/wp*",
+			"-/docker/wp*, *js*",
+			"-/docker/wp*",
+			"-/docker/wp*, *haml*",
+			"-/docker/wp*, *css*",
+			"-/docker/wp*, *js*",
+			"-/docker/wp*, *haml*",
+			"-/docker/wp*, ",
+			"-/docker/wp*, *rb*",
+			"-/docker/wp*, *html*",
+			"-/docker/wp*",
+			"*css*, -/docker/wp*",
+			"*css*,-/docker/wp*",
+			"-/docker/wp*",
+			"*css*,-/docker/wp*",
+			"*html*,-/docker/wp*",
+			"*css*,-/docker/wp*",
+			"*haml*,-/docker/wp*",
+			"*haml*,-*wp*",
+			"dataentry4*haml*",
+			"*haml*",
+			"",
+			"*haml*",
+			"",
+			"*rb*",
+			"",
+			"*haml*",
+			"",
+			"*haml*",
+			"",
+			"*css*",
+			"*haml*",
+			"",
+			"*html*",
+			"*js*",
+			"*haml*",
+			"",
+			"*coffee*",
+			"*js*",
+			"",
+			"*scss*",
+			"*php*",
+			"",
+			"*wp-admin*",
+			"",
+			"/var/www/dira/atelier-new/elements",
+			"/cucumber/",
+			"*cucumber*",
+			"",
+			"*php*",
+			"",
+			"*php*",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"${options.server}",
+			"srcThumbAb",
+			"src",
+			"server",
+			"/'",
+			"assets/",
+			"EmailService",
+			"thePhoto",
+			"srcThumb",
+			"FileStorage",
+			"User",
+			"obj",
+			"resolve(theFile)",
+			"if (err) return done(err)",
+			"console.log(err); ",
+			"cb(",
+			"cb",
+			"cB",
+			"cb",
+			"cB",
+			"cb",
+			"return cb",
+			"vm.account.browserSessions",
+			"Session deleted",
+			"sid",
+			"token",
+			"vm.tokensList",
+			"token",
+			"vm.tokensList",
+			"Can\\'t delete token",
+			"'Can\\'t delete token'",
+			"delete token",
+			"const sessionUtils = {",
+			"userAgent",
+			"'redirect'",
+			"postAll",
+			"account",
+			"session",
+			"req.signedCookies['sails.sid']",
+			"req.session.referer",
+			"eq.headers.referer",
+			"const sessionObj = {",
+			"defaultsTo",
+			"return res.json(error)",
+			"res.serverError(",
+			"res.json(body)",
+			"res.json(data)",
+			"res, ",
+			" = function(res,",
+			"asyn",
+			"getAllServers",
+			"postServer",
+			"getModel",
+			";",
+			"var",
+			"};",
+			");",
+			"req.user",
+			"req.user.id",
+			"const sessionObj = {",
+			"delete req.session",
+			"sessionObj",
+			"language: account.language",
+			"let accountData = {",
+			", ",
+			"callback",
+			"req.headers",
+			"req.session.callback ",
+			"CryptService",
+			"return res.redirect( `${req.session.callback}?a=$CryptService.{encrypt( JSON.stringify( accountData ) )}` )",
+			"custom",
+			"sails",
+			"theApiToken.value",
+			"theApiToken",
+			"Referer",
+			"Delete account",
+			"_translate",
+			"\n    ",
+			"before",
+			"req.user",
+			"req.session.user",
+			"Photo",
+			"photoalbum.photos",
+			"apitoken",
+			"Photoalbum",
+			"photoalbum",
+			"Error",
+			"getAccount",
+			"AccountCtrl",
+			"media",
+			"DashCtrl",
+			"photoalbum",
+			"newPhotoalbum",
+			"name",
+			"ApiToken",
+			"beforeCreate",
+			"model: '",
+			"res.i18n('auth.policy.",
+			"'danger'",
+			"danger",
+			"sessionAuth",
+			"TokenAuth",
+			"var",
+			", ",
+			"$http",
+			"ShowToastService",
+			"Service",
+			"api",
+			"ShowToastService",
+			"sailsUtilityApiService",
+			"href:",
+			"data",
+			"theAccounts",
+			"let ",
+			"let",
+			"let ",
+			"let",
+			"lodash",
+			"encrypt",
+			"crypt",
+			"encrypt",
+			"decrypt",
+			"encrypt",
+			"function ",
+			"EmailService.send(options, (err) => {",
+			"email",
+			"saving",
+			"statusObj.newStatus"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"req.session.sid",
+			"req.user",
+			"\"\"\n      ",
+			"\n      ",
+			"inw02_________________________make_js_docs________________02",
+			"\"$gulp_log\" >>",
+			"node_compose_path",
+			"e",
+			"ipw18_________________________im_setup_git_modules________18",
+			"ipw17_________________________im_webelements_compiler_____17",
+			"instant_posts_workflow_____23",
+			"instant_posts_workflow_____22",
+			"instant_posts_workflow_____21",
+			"instant_posts_workflow_____20",
+			"instant_posts_workflow_____19",
+			"instant_posts_workflow_____18",
+			"instant_posts_workflow_____17",
+			"instant_posts_workflow_____16",
+			"instant_posts_workflow_____15",
+			"instant_posts_workflow_____14",
+			"instant_posts_workflow_____13",
+			"instant_posts_workflow_____12",
+			"instant_posts_workflow_____11",
+			"instant_posts_workflow_____10",
+			"instant_posts_workflow_____9",
+			"instant_posts_workflow_____8",
+			"instant_posts_workflow_____7",
+			"instant_posts_workflow_____6",
+			"install_node_polymer_compiler",
+			"log.info([",
+			"/images/photo.jpg",
+			"setScrollOffSetCore",
+			"fill-div-content.height-from.shadow-scrolling{data:{shadow_target: \"marketing-shadow\",",
+			".shadow-scrolling{data: {from: \".left-side\", shadow_target:\".left-side\"}}",
+			".left-side-scroller.invisible-scroll.with-padding.height-from.shadow-scrolling.non-shadow-xs-sm{data: {from: \".left-side\", shadow_target:\".left-side\"}}",
+			".left-side.invisible-scroll-outer.col-md-4.col-lg-3.col-lg-offset-1.cut-height{data:{height_cut: \"24\"}}",
+			"mock-scroll",
+			".left-side.col-md-4.shadow-scrolling",
+			"im-paper-tabs-1",
+			"im-swipe-pages-1",
+			"$this->items =",
+			"echo __FILE__;exit();$this->items =",
+			"isset($_GET[$post_type])",
+			".content.window-height{ :layout=> \"\",  :vertical => \"\", :fullbleed => \"\", 'data-as'=> 'min-height'}",
+			"../elements/users.haml",
+			"(compile_haml('../elements/users.php'))",
+			".haml",
+			"\", ",
+			"());\n",
+			"$\\1",
+			"@mixin \\2",
+			"$\\1",
+			"a842f4f9e2884d5598d3c5146eb98d11",
+			"087e0f5b8e2f4472b753941faf461197",
+			"}else if(!$('body#single-tag-event, .iframe-tags').length){\n    $('.loader-screen').fadeOut(300);\n  }",
+			"/?page=tags",
+			"#FFFFFF",
+			"ateli.eu",
+			"margin-top: 60px !important",
+			"<?php include '../elements/common_html.php';?>",
+			"capitalizeFirstLetter",
+			"'Lato'",
+			"<?php include '../elements/alerts.php';?>\n<div class=\"sub-body\">",
+			"$de_town_id",
+			"$category_name_slug",
+			"checkPartner($category_name_slug",
+			"$postslist = getPostsByName($category_name_slug,",
+			"$category_name_slug = '';\\n $postslist = getPostsByName($category_name_slug,",
+			"\\n $postslist = getPostsByName($category_name_slug,",
+			"",
+			"class: \"tile-head\"",
+			"= link_to polymorphic_path([current_user.accountable]), class: \"tile-head\", remote: true, data:{id: \"#{locals_feature_id}\"} do",
+			"= link_to polymorphic_path([current_user.accountable]), class: \"tile-head\", remote: true, data:{step: \"#{locals_feature_id}\"} do",
+			"= link_to polymorphic_path([current_user.accountable]), class: \"tile-head\", remote: true, data:{step: \"#{locals_feature_id}\"}",
+			"%a.tile-head{:href => \"#\", remote: true, data:{step: \"#{locals_feature_id}\"}}",
+			"%a.tile-head{:href => \"#\", data:{step: \"#{locals_feature_id}\"}}",
+			"tile_of_feature_id_#{locals_feature_id}\", data:{step",
+			".tile-new{class: \"tile_of_feature_id_#{locals_feature_id}\", data:{id:\"#{locals_feature_id}\"}}",
+			"%li.tile.tile-double{class: \"tile_of_feature_id_#{locals_feature_id}\", data:{id:\"#{locals_feature_id}\"}}",
+			"current_user.has_role?('designer')",
+			"current_user.accountable,",
+			"(current_user.accountable)",
+			"current_user.accountable.",
+			"current_user",
+			"***",
+			"temp-temp-size",
+			"",
+			"%p.product-price.inline",
+			"%p\n%p.product-price",
+			"%p.product-price",
+			"scripts.showAjaxMessage",
+			"class: \"",
+			"), target: \"_blank\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "readme.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 254,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6,
+								6
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"auto_name": "# Znajdz 75",
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"syntax_mgr_loaded": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.coffeecompile_output":
+	{
+		"height": 98.0
+	},
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 207.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 140.0
+	},
+	"output.jotter":
+	{
+		"height": 98.0
+	},
+	"output.markdown":
+	{
+		"height": 98.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 112.0
+	},
+	"pinned_build_system": "",
+	"project": "find75.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"email",
+				"sails-utility/api/services/EmailService.js"
+			],
+			[
+				"poli",
+				"sails-utility/config/policies.js"
+			],
+			[
+				"mode",
+				"sails-utility/config/models.js"
+			],
+			[
+				"serv",
+				"sails-utility/api/services/ServerService.js"
+			],
+			[
+				"admin",
+				"sails-utility/api/controllers/AdminController.js"
+			],
+			[
+				"pack",
+				"sails-utility/package.json"
+			],
+			[
+				"res",
+				"sails-utility/api/controllers/ResourcesController.js"
+			],
+			[
+				"local",
+				"sails-utility/assets/locale/locale-en.yml"
+			],
+			[
+				"accucof",
+				"im-angular/components/sails-app/controllers/AccountController.coffee"
+			],
+			[
+				"accountco",
+				"sails-utility/api/controllers/AccountController.js"
+			],
+			[
+				"localpl",
+				"sails-utility/assets/locale/locale-pl.yml"
+			],
+			[
+				".yml",
+				"sails-utility/assets/locale/locale-en.yml"
+			],
+			[
+				"imapphe",
+				"sails-utility/assets/webelements/im-app-header-layout/im-webelement-im-app-header-layout.haml"
+			],
+			[
+				"sess",
+				"sails-utility/api/models/Session.js"
+			],
+			[
+				"accp",
+				"im-angular/components/sails-app/views/partial/account.pug"
+			],
+			[
+				"adminpug",
+				"im-angular/components/sails-app/views/partial/admin.pug"
+			],
+			[
+				"dashpug",
+				"im-angular/components/sails-app/views/partial/dashboard.pug"
+			],
+			[
+				"acco",
+				"sails-utility/api/controllers/AccountController.js"
+			],
+			[
+				"route",
+				"sails-utility/config/routes.js"
+			],
+			[
+				"auto",
+				"sails-utility/config/autoreload.js"
+			],
+			[
+				"manage",
+				"sails-utility/api/services/ManageService.js"
+			],
+			[
+				"manageservice",
+				"sails-shared/services/ManageService.js"
+			],
+			[
+				"sessi",
+				"sails-utility/api/models/Session.js"
+			],
+			[
+				"ema",
+				"sails-utility/api/services/EmailService.js"
+			],
+			[
+				"adminco",
+				"im-angular/components/sails-app/controllers/AdminController.coffee"
+			],
+			[
+				"admincof",
+				"im-angular/components/sails-app/controllers/AdminController.coffee"
+			],
+			[
+				"rou",
+				"sails-utility/config/routes.js"
+			],
+			[
+				"admn",
+				"sails-utility/api/controllers/AdminController.js"
+			],
+			[
+				"manag",
+				"im-angular/components/sails-app/controllers/ManageServersController.coffee"
+			],
+			[
+				"sailu",
+				"im-angular/app-sails-utility.coffee"
+			],
+			[
+				"index",
+				"sails-utility/views/app/index.pug"
+			],
+			[
+				"appco",
+				"sails-utility/api/controllers/AppController.js"
+			],
+			[
+				"autc",
+				"sails-utility/api/controllers/AuthController.js"
+			],
+			[
+				"auth",
+				"im-angular/node_modules/jquery/AUTHORS.txt"
+			],
+			[
+				"http",
+				"sails-utility/config/http.js"
+			],
+			[
+				"servtoken",
+				"sails-utility/api/services/TokenAuth.js"
+			],
+			[
+				".git",
+				"sails-utility/.gitignore"
+			],
+			[
+				"pak",
+				"package.json"
+			],
+			[
+				"rout",
+				"config/routes.js"
+			],
+			[
+				"tokena",
+				"api/services/TokenAuth.js"
+			],
+			[
+				"cors",
+				"config/cors.js"
+			],
+			[
+				"acccoff",
+				"assets/im-angular/components/sails-app/controllers/AccountController.coffee"
+			],
+			[
+				"locale",
+				"assets/locale/locale-pl.yml"
+			],
+			[
+				"loca",
+				"assets/locale/locale-en.yml"
+			],
+			[
+				"locay",
+				"assets/locale/locale-en.yml"
+			],
+			[
+				"accou.js",
+				"api/controllers/AccountController.js"
+			],
+			[
+				"lodash",
+				"assets/webelements/im-main-card/bower_components/lodash/lodash.js"
+			],
+			[
+				"polic",
+				"config/policies.js"
+			],
+			[
+				"policeauth",
+				"api/policies/tokenAuth.js"
+			],
+			[
+				"localeyml",
+				"assets/locale/locale-pl.yml"
+			],
+			[
+				"tokenau",
+				"api/services/TokenAuthService.js"
+			],
+			[
+				"apitoken",
+				"api/models/ApiToken.js"
+			],
+			[
+				"accoucoffe",
+				"assets/im-angular/components/sails-app/controllers/AccountController.coffee"
+			],
+			[
+				"accountpug",
+				"assets/im-angular/components/sails-app/views/partial/account.pug"
+			],
+			[
+				"token",
+				"api/models/ApiToken.js"
+			],
+			[
+				"service",
+				"api/services/EmailService.js"
+			],
+			[
+				"index.",
+				"views/app/index.pug"
+			],
+			[
+				"sailsutilityapiservice",
+				"assets/im-angular/components/sails-app/services/sailsUtilityApiService.coffee"
+			],
+			[
+				"sailcoffe",
+				"assets/im-angular/app-sails.coffee"
+			],
+			[
+				"packj",
+				"package.json"
+			],
+			[
+				"aut",
+				"api/controllers/AuthController.js"
+			],
+			[
+				"acc",
+				"api/controllers/AccountController.js"
+			],
+			[
+				"acccofe",
+				"assets/im-angular/components/sails-app/controllers/AccountController.coffee"
+			],
+			[
+				"dashcofee",
+				"assets/im-angular/components/node-ip/controllers/DashboardController.coffee"
+			],
+			[
+				"predefine",
+				"db/predefinedAccounts.json"
+			],
+			[
+				"index.pug",
+				"views/app/index.pug"
+			],
+			[
+				"modellis",
+				"assets/im-angular/components/sails-app/views/partial/modelList.pug"
+			],
+			[
+				"managpug",
+				"assets/im-angular/components/sails-app/views/partial/manageServers.pug"
+			],
+			[
+				"managese",
+				"assets/im-angular/components/sails-app/controllers/ManageServersController.coffee"
+			],
+			[
+				"model",
+				"assets/im-angular/components/sails-app/controllers/ModelController.coffee"
+			],
+			[
+				"modelist",
+				"assets/im-angular/components/sails-app/views/partial/modelList.pug"
+			],
+			[
+				"model.pug",
+				"assets/im-angular/components/sails-app/views/partial/modelEdit.pug"
+			],
+			[
+				"modeledi",
+				"assets/im-angular/components/sails-app/controllers/ModelEditController.coffee"
+			],
+			[
+				"modelco",
+				"assets/im-angular/components/sails-app/controllers/ModelController.coffee"
+			],
+			[
+				"modepug",
+				"assets/im-angular/components/sails-app/views/partial/modelList.pug"
+			],
+			[
+				"admincoffe",
+				"assets/im-angular/components/sails-app/controllers/AdminController.coffee"
+			],
+			[
+				"sailsuti",
+				"assets/im-angular/app-sails-utility.coffee"
+			],
+			[
+				"dat",
+				"test/testDatabase.json"
+			],
+			[
+				"datab",
+				"config/database.js"
+			],
+			[
+				"appsa",
+				"assets/im-angular/app-sails.coffee"
+			],
+			[
+				"conn",
+				"config/connections.js"
+			],
+			[
+				"testacc",
+				"test/integration/models/Account.test.js"
+			],
+			[
+				"confpug",
+				"assets/im-angular/components/sails-app/views/partial/confirmation.pug"
+			],
+			[
+				"boot",
+				"test/bootstrap.test.js"
+			],
+			[
+				"emailser",
+				"api/services/ElasticEmailService.js"
+			],
+			[
+				"ser",
+				"api/services/EmailService.js"
+			],
+			[
+				"appsailco",
+				"assets/im-angular/app-sails.coffee"
+			],
+			[
+				"accocof",
+				"assets/im-angular/components/sails-app/controllers/AccountController.coffee"
+			],
+			[
+				"regis",
+				"assets/im-angular/components/sails-app/controllers/RegisterController.coffee"
+			],
+			[
+				"sailsutilityapi",
+				"assets/im-angular/components/sails-app/services/sailsUtilityApiService.coffee"
+			],
+			[
+				"autco",
+				"api/controllers/AuthController.js"
+			],
+			[
+				"inde",
+				"views/app/index.pug"
+			],
+			[
+				"app",
+				"api/controllers/AppController.js"
+			],
+			[
+				"sauti",
+				"assets/im-angular/app-sails-utility.coffee"
+			],
+			[
+				"loginc",
+				"assets/im-angular/components/sails-app/controllers/LoginController.coffee"
+			],
+			[
+				"testuser",
+				"test/integration/models/User.test.js"
+			],
+			[
+				"sessionauth",
+				"api/policies/sessionAuth.js"
+			],
+			[
+				"r",
+				"config/routes.js"
+			],
+			[
+				"rou.js",
+				"config/routes.js"
+			],
+			[
+				"pac",
+				"package.json"
+			],
+			[
+				"conne",
+				"config/connections.js"
+			],
+			[
+				"localep",
+				"assets/locale/locale-pl.json"
+			],
+			[
+				"copy",
+				"tasks/config/copy.js"
+			],
+			[
+				"type",
+				"tasks/config/typescript.js"
+			],
+			[
+				"buil",
+				"tasks/register/build.js"
+			],
+			[
+				"pug",
+				"tasks/config/pug.js"
+			],
+			[
+				"watch",
+				"tasks/register/watch.js"
+			],
+			[
+				"def",
+				"tasks/register/default.js"
+			],
+			[
+				"indexp",
+				"views/app/index.pug"
+			],
+			[
+				"sailco",
+				"assets/im-angular/app-sails-utility.coffee"
+			],
+			[
+				"sail",
+				"assets/im-angular/app-sails-utility.coffee"
+			],
+			[
+				"htt",
+				"config/http.js"
+			],
+			[
+				"locapl",
+				"assets/locale/locale-pl.json"
+			],
+			[
+				"accopug",
+				"assets/im-angular/components/sails-app/views/partial/account.pug"
+			],
+			[
+				"sailut",
+				"assets/im-angular/app-sails-utility.coffee"
+			],
+			[
+				"acounconco",
+				"assets/im-angular/components/sails-app/controllers/AccountController.coffee"
+			],
+			[
+				"demopug",
+				"assets/im-angular/demos/angular-material-sails.pug"
+			],
+			[
+				"accpug",
+				"assets/im-angular/components/sails-app/views/partial/account.pug"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"loginpug",
+				"assets/im-angular/components/sails-app/views/partial/login.pug"
+			],
+			[
+				"logic",
+				"assets/im-angular/components/sails-app/controllers/LoginController.coffee"
+			],
+			[
+				"confi",
+				"assets/im-angular/components/sails-app/controllers/ConfirmationController.coffee"
+			],
+			[
+				"confipug",
+				"assets/im-angular/components/sails-app/views/partial/confirmation.pug"
+			],
+			[
+				"sailuti",
+				"assets/im-angular/app-sails-utility.coffee"
+			],
+			[
+				"cop",
+				"tasks/config/copy.js"
+			],
+			[
+				"coff",
+				"tasks/config/coffee.js"
+			],
+			[
+				"registerpug",
+				"assets/im-angular/components/sails-app/views/partial/register.pug"
+			],
+			[
+				"register",
+				"assets/im-angular/components/sails-app/controllers/RegisterController.coffee"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "sam",
+		"selected_items":
+		[
+			[
+				"sam",
+				"~/Dropbox/studia/studia_r3/samsung_labo/labo_samsung_2017/samsunglabo.sublime-project"
+			],
+			[
+				"base",
+				"~/im_machines/instant_post_app/im_base.sublime-project"
+			],
+			[
+				"ws",
+				"~/studia/wdsi/wdsi.sublime-project"
+			],
+			[
+				"",
+				"~/im_machines/instant_post_app/sails-app/i.sublime-project"
+			],
+			[
+				"phon",
+				"~/phonegap-test/myApp/myApp.sublime-project"
+			],
+			[
+				"imbas",
+				"~/im_machines/instant_post_app/im_base.sublime-project"
+			],
+			[
+				"de",
+				"~/im_machines/instant_post_app/de4.sublime-project"
+			],
+			[
+				"app wp",
+				"~/im_machines/instant_post_app/node_express_polymer/app_wp.sublime-project"
+			],
+			[
+				"node",
+				"~/im_machines/instant_post_app/node_express_polymer/app_wp.sublime-project"
+			],
+			[
+				"app n",
+				"~/im_machines/instant_post_app/node_express_polymer/app_wp.sublime-project"
+			],
+			[
+				"im",
+				"~/im_machines/instant_post_app/node_express_polymer/app_wp.sublime-project"
+			],
+			[
+				"de4",
+				"~/im_machines/instant_post_app/de4.sublime-project"
+			],
+			[
+				"app",
+				"~/im_machines/instant_post_app/node_express_polymer/app_wp.sublime-project"
+			],
+			[
+				"appwp",
+				"~/im_machines/instant_post_app/node_express_polymer/app_wp.sublime-project"
+			],
+			[
+				"imwp",
+				"~/im_machines/instant_post_app/node_express_polymer/app_wp.sublime-project"
+			],
+			[
+				"ins",
+				"~/im_machines/instant_post_app/insantapp.sublime-project"
+			],
+			[
+				"ma",
+				"~/MATLAB/studia/matlab.sublime-project"
+			],
+			[
+				"le",
+				"~/lex_by_md_0.sublime-project"
+			],
+			[
+				"lex",
+				"~/lex_by_md_0.sublime-project"
+			],
+			[
+				"d",
+				"~/lex_by_md_0.sublime-project"
+			],
+			[
+				"so2",
+				"~/so2/so2.sublime-project"
+			],
+			[
+				"l",
+				"~/lex_by_md_0.sublime-project"
+			],
+			[
+				"ate",
+				"~/vagrants/vagrant_wp/atelier-wp.sublime-project"
+			],
+			[
+				"pro",
+				"~/programowanie/programowanie.sublime-project"
+			],
+			[
+				"st",
+				"~/struktury/struktury.sublime-project"
+			],
+			[
+				"c",
+				"~/sublime-project/contrete5.sublime-project"
+			],
+			[
+				"spec",
+				"~/sublime-project/spec6.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 293.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
