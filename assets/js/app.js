@@ -26,8 +26,16 @@ app.config([
 app.controller('IndexController', function ($scope) {})
 
 
-app.controller('MainController', function ($scope) {
+app.controller('MainController', function ($scope, $mdSidenav) {
 
   $scope.title = 'Hello'
+
+  $scope.toggleLeft = buildToggler('left')
+
+  function buildToggler(componentId) {
+    return function() {
+      $mdSidenav(componentId).toggle()
+    }
+  }
 
 })
