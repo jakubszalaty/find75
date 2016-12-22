@@ -1,0 +1,30 @@
+{
+  "name": "find75",
+  "version": "0.0.1",
+  "description": "App which shows current position of Szczecin's buses.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "debug": "node debug index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nnaisur/find75.git"
+  },
+  "keywords": [
+    "express",
+    "bus",
+    "szczecin",
+    "angular"
+  ],
+  "author": "Jakub Szalaty",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nnaisur/find75/issues"
+  },
+  "homepage": "https://github.com/nnaisur/find75#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
