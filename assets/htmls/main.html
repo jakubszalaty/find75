@@ -1,0 +1,38 @@
+<div layout="column" ng-cloak>
+
+  <md-toolbar>
+    <div class="md-toolbar-tools">
+      <md-button class="md-icon-button" aria-label="menu">
+        <md-icon aria-label="menu" class="material-icons">menu</md-icon>
+      </md-button>
+      <h3>
+        <span>{{title}}</span>
+      </h3>
+      <md-button class="md-icon-button" aria-label="more">
+        <md-icon aria-label="more" class="material-icons">more</md-icon>
+      </md-button>
+
+    </div>
+  </md-toolbar>
+
+  <md-content flex>
+
+    <md-list>
+
+      <md-list-item class="md-3-line" ng-repeat="value in [0,1,2,3,4,5,6,7,8,9,10]">
+        <img ng-src="/img/avatar.jpg" alt="image" class="md-avatar">
+        <div class="md-list-item-text">
+          <h3>Ullam suscipit quis</h3>
+          <h4>Quo fuga eaque maxime</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </p>
+        </div>
+      <md-divider inset></md-divider>
+    </md-list-item>
+
+  </md-list>
+
+</md-content>
+
+</div>
