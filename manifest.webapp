@@ -1,0 +1,25 @@
+{
+  "version": "0.3.1",
+  "name": "Find 75",
+  "launch_path": "/index.html",
+  "description": "App which shows current position of Szczecin's buses.",
+  "icons": {
+    "128": "/images/touch/icon-128x128.png"
+  },
+  "developer": {
+    "name": "Paul Kinlan",
+    "url": "http://paul.kinlan.me"
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "default_locale": "en",
+  "permissions": {
+  },
+  "locales": {
+    "en": {
+      "name": "Find 75",
+      "description": "Find 75"
+    }
+  }
+}
