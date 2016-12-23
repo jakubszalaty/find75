@@ -8,13 +8,13 @@ md-toolbar md-icon{
 }
 md-list{
   overflow: auto;
-  height: calc(100vh - 45vh - 56px - 84px);
+  height: calc(100vh - 40vh - 56px - 44px)
 }
 .show-all{
   margin-bottom: 0;
 }
 ng-map{
-  height: 45vh;
+  height: 40vh;
 }
 
 .bus{
