@@ -2,10 +2,10 @@
   "name": "find75",
   "version": "0.0.1",
   "description": "App which shows current position of Szczecin's buses.",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node app.js",
-    "debug": "node debug app.js",
+    "start": "node server.js",
+    "debug": "node debug server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

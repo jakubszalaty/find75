@@ -2,7 +2,7 @@
   "name": "find75-angular",
   "version": "0.0.1",
   "description": "App which shows current position of Szczecin's buses.",
-  "main": "app.js",
+  "main": "server.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nnaisur/find75.git"
