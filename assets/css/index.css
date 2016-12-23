@@ -8,7 +8,7 @@ md-toolbar md-icon{
 }
 md-list{
   overflow: auto;
-  height: calc(100vh - 45vh - 56px - 100px);
+  height: calc(100vh - 45vh - 56px - 84px);
 }
 .show-all{
   margin-bottom: 0;
@@ -67,4 +67,16 @@ ng-map{
 }
 .tram:after{
   border-top-color: #ffc107;
+}
+
+md-autocomplete{
+  width: 100%;
+  background: transparent;
+}
+md-autocomplete md-autocomplete-wrap{
+  box-shadow: none!important;
+}
+md-autocomplete input,
+md-autocomplete md-icon{
+  color: #fff!important;
 }
