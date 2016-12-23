@@ -68,8 +68,8 @@
     </custom-marker>
 
   </ng-map>
-  <md-content flex layout-padding style="padding-top: 0">
-    <form >
+  <md-content flex layout-padding style="padding-bottom: 0; overflow: hidden;">
+    <form>
       <!-- <md-input-container> -->
       <md-checkbox class="show-all" ng-model="MainCtrl.allBuses" aria-label="Pokaż wszystkie">
         Pokaż wszystkie (niezalecane)
@@ -82,6 +82,7 @@
 
   <md-list class="md-dense">
 
+    <md-divider inset></md-divider>
     <md-list-item class="md-3-line" ng-repeat="bus in MainCtrl.getMatchesBuses(MainCtrl.busStop)" ng-click="MainCtrl.showBus(bus)">
       <div class="md-list-item-text">
         <h3>{{bus.linia}} ({{bus.punktualnosc1}})</h3>
