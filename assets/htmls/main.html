@@ -30,7 +30,6 @@
     </div>
   </md-toolbar>
 
-
   <!-- <md-input-container>
     <md-select ng-model="MainCtrl.busStop" placeholder="Wybierz przystanek">
       <md-option ng-value="busStop.nazwa" ng-repeat="busStop in MainCtrl.busStops">{{ busStop.nazwa }}</md-option>
@@ -45,7 +44,6 @@
     <!-- <marker ng-repeat="bus in MainCtrl.getMatchesBuses(MainCtrl.busStop)" position="{{bus.lat}},{{bus.lon}}"></marker> -->
 
     <custom-marker ng-repeat="bus in MainCtrl.getMatchesBuses(MainCtrl.busStop)" position="{{bus.lat}},{{bus.lon}}">
-      <!-- <div class="bus" ng-class="{day:bus.typlinii==='adz', night:bus.typlinii==='anz', tram:bus.typlinii==='tdz'}"> -->
       <div class="bus" ng-class="{fast:bus.typlinii==='adp',normal:bus.typlinii==='adz', night:bus.typlinii==='anz', tram:bus.typlinii==='tdz'}">
         {{bus.linia}}
       </div>
