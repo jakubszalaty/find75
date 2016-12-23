@@ -2,8 +2,8 @@
 
   <md-sidenav class="md-sidenav-left" md-component-id="left" md-whiteframe="4">
 
-    <md-toolbar class="md-theme-indigo" style="height:128px;">
-      <h1 class="md-toolbar-tools">Hello</h1>
+    <md-toolbar class="md-theme-indigo" style="height:168px;">
+      <h1 class="md-toolbar-tools" style="margin-top:112px;">Witaj użytkowniku!</h1>
     </md-toolbar>
 
     <md-content layout-margin>
@@ -18,12 +18,10 @@
 
   <md-toolbar>
     <div class="md-toolbar-tools">
-      <md-button class="md-icon-button" aria-label="menu" ng-click="toggleLeft()">
+      <md-button class="md-icon-button" aria-label="menu" ng-click="MainCtrl.toggleLeft()">
         <md-icon aria-label="menu" class="material-icons">menu</md-icon>
       </md-button>
-      <h3>
-        <span>{{title}}</span>
-      </h3>
+      <h3> <span>{{MainCtrl.title}}</span> </h3>
       <span flex="" class="flex"></span>
       <md-button class="md-icon-button" aria-label="more_vert">
         <md-icon aria-label="more_vert" class="material-icons">more_vert</md-icon>
@@ -32,24 +30,63 @@
     </div>
   </md-toolbar>
 
-  <md-content flex>
 
-    <md-list>
+  <!-- <md-input-container>
+    <md-select ng-model="MainCtrl.busStop" placeholder="Wybierz przystanek">
+      <md-option ng-value="busStop.nazwa" ng-repeat="busStop in MainCtrl.busStops">{{ busStop.nazwa }}</md-option>
+    </md-select>
+  </md-input-container> -->
+  <ng-map center="[53.430434,14.5455763]" zoom="14" disable-default-u-i="true">
+    <!-- <marker ng-repeat="busStop in MainCtrl.busStops" position="{{busStop.szerokoscgeo}},{{busStop.dlugoscgeo}}" title="{{busStop.nazwa}}"></marker> -->
+    <!-- <marker position="current" animation="Animation.BOUNCE" centered="true"></marker> -->
+    <traffic-layer></traffic-layer>
+    <marker ng-if="MainCtrl.busStop" position="{{MainCtrl.busStop.szerokoscgeo}},{{MainCtrl.busStop.dlugoscgeo}}" title="{{MainCtrl.busStop.nazwa}}"></marker>
 
-      <md-list-item class="md-3-line" ng-repeat="value in [0,1,2,3,4,5,6,7,8,9,10]">
-        <img ng-src="/img/avatar.jpg" alt="image" class="md-avatar">
-        <div class="md-list-item-text">
-          <h3>Ullam suscipit quis</h3>
-          <h4>Quo fuga eaque maxime</h4>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          </p>
-        </div>
-      <md-divider inset></md-divider>
-    </md-list-item>
+    <!-- <marker ng-repeat="bus in MainCtrl.getMatchesBuses(MainCtrl.busStop)" position="{{bus.lat}},{{bus.lon}}"></marker> -->
 
-  </md-list>
+    <custom-marker ng-repeat="bus in MainCtrl.getMatchesBuses(MainCtrl.busStop)" position="{{bus.lat}},{{bus.lon}}">
+      <!-- <div class="bus" ng-class="{day:bus.typlinii==='adz', night:bus.typlinii==='anz', tram:bus.typlinii==='tdz'}"> -->
+      <div class="bus" ng-class="{fast:bus.typlinii==='adp',normal:bus.typlinii==='adz', night:bus.typlinii==='anz', tram:bus.typlinii==='tdz'}">
+        {{bus.linia}}
+      </div>
+    </custom-marker>
 
-</md-content>
+  </ng-map>
+  <md-content flex layout-padding style="padding-top: 0">
+    <form >
+      <md-autocomplete
+        ng-disabled="MainCtrl.allBuses"
+        md-selected-item="MainCtrl.busStop"
+        md-selected-item-change="MainCtrl.setNewCenter()"
+        md-search-text="searchText"
+        md-items="item in MainCtrl.getMatchesStops(searchText)"
+        md-item-text="item.nazwa"
+        placeholder="Wybierz przystanek">
+        <span md-highlight-text="searchText">{{item.nazwa}}</span>
+      </md-autocomplete>
+
+      <md-input-container>
+        <md-checkbox class="show-all" ng-model="MainCtrl.allBuses" aria-label="Pokaż wszystkie">
+          Pokaż wszystkie (niezalecane)
+        </md-checkbox>
+      </md-input-container>
+    </form>
+  </md-content>
+
+  <!-- <h2>{{MainCtrl.busStop.nazwa}}</h2> -->
+
+  <md-list>
+
+    <md-list-item class="md-3-line" ng-repeat="bus in MainCtrl.getMatchesBuses(MainCtrl.busStop)" ng-click="MainCtrl.showBus(bus)">
+      <div class="md-list-item-text">
+        <h3>{{bus.linia}} ({{bus.punktualnosc1}})</h3>
+        <p>Z: {{bus.z}} Do: {{bus.do}}</p>
+        <!-- <p> Predkość {{bus.predkosc}} </p> -->
+      </div>
+    <md-divider inset></md-divider>
+  </md-list-item>
+
+</md-list>
+
 
 </div>

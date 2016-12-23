@@ -1,7 +1,44 @@
+* { box-sizing: border-box; }
 body{
   /*overflow: hidden;*/
 }
 
 md-toolbar md-icon{
   color: white;
+}
+md-list{
+  overflow: auto;
+  height: calc(100vh - 45vh - 56px - 100px);
+}
+.show-all{
+  margin-bottom: 0;
+}
+ng-map{
+  height: 45vh;
+}
+
+.bus{
+  border-radius: 5px;
+  width: 33px;
+  height: 22px;
+  font-size: 17px;
+  line-height: 22px;
+  text-align: center;
+  font-weight: bold;
+}
+.night{
+  background: #000;
+  color: #fff;
+}
+.normal{
+  background: #03a9f4;
+  color: #fff;
+}
+.fast{
+  background: #F44336;
+  color: #fff;
+}
+.tram{
+  background: #ffc107;
+  color: #000;
 }
