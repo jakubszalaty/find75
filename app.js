@@ -1,6 +1,6 @@
 'use strict'
 
-const PORT = process.env.APP_PORT || 80
+const PORT = 80
 
 const express = require('express')
 const request = require('request-promise')
