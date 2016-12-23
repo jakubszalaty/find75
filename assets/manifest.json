@@ -3,22 +3,22 @@
   "short_name": "Find 75",
   "icons": [
       {
-        "src": "res/icon/android/icon-72-hdpi.png",
+        "src": "/icon.ico",
         "type": "image/png",
         "sizes": "72x72"
       },
       {
-        "src": "res/icon/android/icon-96-xhdpi.png",
+        "src": "/icon.ico",
         "type": "image/png",
         "sizes": "96x96"
       },
       {
-        "src": "res/icon/android/icon-144-xxhdpi.png",
+        "src": "/icon.ico",
         "type": "image/png",
         "sizes": "144x144"
       },
       {
-        "src": "res/icon/android/icon-192-xxxhdpi.png",
+        "src": "/icon.ico",
         "type": "image/png",
         "sizes": "192x192"
       }],

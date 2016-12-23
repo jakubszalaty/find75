@@ -4,20 +4,20 @@
   "launch_path": "/index.html",
   "description": "App which shows current position of Szczecin's buses.",
   "icons": {
-    "128": "/images/touch/icon-128x128.png"
+    "128": "/icon.ico"
   },
   "developer": {
-    "name": "Paul Kinlan",
-    "url": "http://paul.kinlan.me"
+    "name": "Jakub Szalaty",
+    "url": "https://github.com/nnaisur"
   },
   "installs_allowed_from": [
     "*"
   ],
-  "default_locale": "en",
+  "default_locale": "pl",
   "permissions": {
   },
   "locales": {
-    "en": {
+    "pl": {
       "name": "Find 75",
       "description": "Find 75"
     }
