@@ -1,8 +1,8 @@
 # Find75
 
-<img src="./assets/img/screen_1.png" alt="screen_1" style="width: 250px;"/>
-<img src="./assets/img/screen_2.png" alt="screen_2" style="width: 250px;"/>
-<img src="./assets/img/screen_3.png" alt="screen_3" style="width: 250px;"/>
+<img src="./assets/img/screen_1.png" alt="screen_1" width="250"/>
+<img src="./assets/img/screen_2.png" alt="screen_2" width="250"/>
+<img src="./assets/img/screen_3.png" alt="screen_3" width="250"/>
 
 App which shows current position of Szczecin's buses.
 
@@ -17,8 +17,8 @@ It bases on data from [ZDITM](http://www.zditm.szczecin.pl/) and shows position 
 - Press 'Add'
 - Done!
 
-<img src="./assets/img/homescreen_1.png" alt="homescreen_1" style="width: 150px;"/>
-<img src="./assets/img/homescreen_2.png" alt="homescreen_2" style="width: 150px;"/>
+<img src="./assets/img/homescreen_1.png" alt="homescreen_1" width="150"/>
+<img src="./assets/img/homescreen_2.png" alt="homescreen_2" width="150"/>
 
 ## Frameworks
 
