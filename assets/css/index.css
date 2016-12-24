@@ -88,8 +88,11 @@ md-autocomplete md-icon{
 }
 
 @media (min-width: 960px) {
+  ng-map{
+    height: 45vh;
+  }
   md-list{
-    height: calc(100vh - 40vh - 56px - 61px);
+    height: calc(100vh - 45vh - 56px - 61px);
   }
   .menu-btn{
     display: none!important;
