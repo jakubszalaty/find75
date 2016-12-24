@@ -74,7 +74,7 @@
           <md-option ng-value="busStop.nazwa" ng-repeat="busStop in MainCtrl.busStops">{{ busStop.nazwa }}</md-option>
         </md-select>
       </md-input-container> -->
-      <ng-map center="[53.430434,14.5455763]" zoom="14" disable-default-u-i="true">
+      <ng-map center="[53.430434,14.5455763]" zoom="15" disable-default-u-i="true">
         <!-- <marker ng-repeat="busStop in MainCtrl.busStops" position="{{busStop.szerokoscgeo}},{{busStop.dlugoscgeo}}" title="{{busStop.nazwa}}"></marker> -->
         <!-- <marker position="current" animation="Animation.BOUNCE" centered="true"></marker> -->
         <traffic-layer></traffic-layer>

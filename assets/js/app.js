@@ -46,15 +46,17 @@ app.controller('MainController', function ($scope, $mdSidenav, $http, $mdToast, 
   function showBus(bus){
     NgMap.getMap().then((map)=>{
       map.setCenter({lat: parseFloat(bus.lat), lng: parseFloat(bus.lon)})
-      map.setZoom(14)
+      map.setZoom(15)
     })
   }
 
   function setNewCenter(){
     document.activeElement.blur()
     NgMap.getMap().then((map)=>{
-      if(vm.busStop)
+      if(vm.busStop){
         map.setCenter({lat:vm.busStop.szerokoscgeo, lng: vm.busStop.dlugoscgeo})
+        map.setZoom(15)
+      }
     })
 
     return
