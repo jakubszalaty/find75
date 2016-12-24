@@ -1,9 +1,45 @@
 # Find75
 
+<img src="./assets/img/screen_1.png" alt="screen_1" style="width: 250px;"/>
+<img src="./assets/img/screen_2.png" alt="screen_2" style="width: 250px;"/>
+<img src="./assets/img/screen_3.png" alt="screen_3" style="width: 250px;"/>
+
 App which shows current position of Szczecin's buses.
 
 It bases on data from [ZDITM](http://www.zditm.szczecin.pl/) and shows position of buses which have GPS.
-Some older buses haven't buildin GPS, so app won't show their positions.
+
+**Important!** Some older buses haven't buildin GPS, so app won't show their positions.
+
+# Add shortcut to homescreen
+
+- Click on Menu
+- Choose 'Add to homescreen'
+- Press 'Add'
+- Done!
+
+<img src="./assets/img/homescreen_1.png" alt="homescreen_1" style="width: 150px;"/>
+<img src="./assets/img/homescreen_2.png" alt="homescreen_2" style="width: 150px;"/>
+
+## Frameworks
+
+- **nodejs** - https://nodejs.org/
+- **expressjs** - http://expressjs.com/
+- **angular 1** - https://angularjs.org/
+- **material angular** - https://material.angularjs.org/
+
+
+## Feedback
+All bugs, feature requests, pull requests, feedback, etc., are welcome. [Create an issue.](https://github.com/nnaisur/find75/issues)
+
+## Quick Start for developers
+
+- `git clone git@github.com:nnaisur/find75.git` or [Download](https://github.com/nnaisur/find75/archive/master.zip)
+- `cd find75`
+- `npm install` - node modules for node app
+- `cd assets`
+- `npm install` - node modules for angular
+- `cd ..`
+- `node server.js` - start app
 
 ## TODO
 - ~~install angular~~
@@ -13,4 +49,3 @@ Some older buses haven't buildin GPS, so app won't show their positions.
 - ~~add google-map or open street map~~
 - show selected buses on map
 - ~~show buses based on bus station~~
-
