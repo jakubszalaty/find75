@@ -80,3 +80,8 @@ md-autocomplete input,
 md-autocomplete md-icon{
   color: #fff!important;
 }
+
+.clear-atag{
+  color: rgba(0,0,0,0.87)!important;
+  text-decoration: none!important;
+}

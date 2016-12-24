@@ -6,10 +6,26 @@
       <h1 class="md-toolbar-tools" style="margin-top:112px;">Witaj użytkowniku!</h1>
     </md-toolbar>
 
-    <md-content layout-margin>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-      </p>
+    <md-content>
+      <md-list ng-cloak>
+
+        <md-list-item>
+          <md-icon aria-label="code" class="material-icons">code</md-icon>
+          <p>
+            <a class="clear-atag" href="https://github.com/nnaisur/find75"> Github </a>
+          </p>
+        </md-list-item>
+
+        <md-list-item>
+          <md-icon aria-label="report_problem" class="material-icons">report_problem</md-icon>
+          <p>
+            <a class="clear-atag" href="https://github.com/nnaisur/find75/issues"> Zgłoś problem </a>
+          </p>
+        </md-list-item>
+
+
+
+      </md-list>
     </md-content>
 
   </md-sidenav>
@@ -31,19 +47,19 @@
       <!-- <h3> <span>{{MainCtrl.title}}</span> </h3> -->
 
       <md-autocomplete
-        md-selected-item="MainCtrl.busStop"
-        md-selected-item-change="MainCtrl.setNewCenter()"
-        md-search-text="searchText"
-        md-items="item in MainCtrl.getMatchesStops(searchText)"
-        md-item-text="item.nazwa"
-        placeholder="Wybierz przystanek">
-        <span md-highlight-text="searchText">{{item.nazwa}}</span>
-      </md-autocomplete>
+      md-selected-item="MainCtrl.busStop"
+      md-selected-item-change="MainCtrl.setNewCenter()"
+      md-search-text="searchText"
+      md-items="item in MainCtrl.getMatchesStops(searchText)"
+      md-item-text="item.nazwa"
+      placeholder="Wybierz przystanek">
+      <span md-highlight-text="searchText">{{item.nazwa}}</span>
+    </md-autocomplete>
 
-      <span flex="" class="flex"></span>
-      <md-button class="md-icon-button" aria-label="more_vert">
+    <span flex="" class="flex"></span>
+      <!-- <md-button class="md-icon-button" aria-label="more_vert">
         <md-icon aria-label="more_vert" class="material-icons">more_vert</md-icon>
-      </md-button>
+      </md-button> -->
 
     </div>
   </md-toolbar>
@@ -90,10 +106,10 @@
         <p>Do: {{bus.do || 'Pętla'}}</p>
         <!-- <p> Predkość {{bus.predkosc}} </p> -->
       </div>
-    <md-divider inset></md-divider>
-  </md-list-item>
+      <md-divider inset></md-divider>
+    </md-list-item>
 
-</md-list>
+  </md-list>
 
 
 </div>
