@@ -2,6 +2,11 @@
 
 const PORT = process.env.PORT || 80
 
+const http = require('http')
+
+// const https = require('https')
+// const fs = require('fs')
+
 const express = require('express')
 const request = require('request-promise')
 
@@ -49,6 +54,16 @@ app.get('/buses', function (req, res) {
 })
 
 
-app.listen(PORT, function () {
-  console.log(`App listening on port ${PORT}!`)
-})
+// app.listen(PORT, function () {
+//   console.log(`App listening on port ${PORT}!`)
+// })
+
+http.createServer(app).listen(PORT)
+
+// const privateKey = fs.readFileSync( 'privatekey.pem' )
+// const certificate = fs.readFileSync( 'certificate.pem' )
+
+// https.createServer({
+//   key: privateKey,
+//   cert: certificate
+// }, app).listen(PORT)
