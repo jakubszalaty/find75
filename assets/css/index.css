@@ -8,8 +8,9 @@ md-toolbar md-icon{
 }
 md-list{
   overflow: auto;
-  height: calc(100vh - 40vh - 56px - 44px)
+  height: calc(100vh - 40vh - 56px - 53px);
 }
+
 .show-all{
   margin-bottom: 0;
 }
@@ -84,4 +85,13 @@ md-autocomplete md-icon{
 .clear-atag{
   color: rgba(0,0,0,0.87)!important;
   text-decoration: none!important;
+}
+
+@media (min-width: 960px) {
+  md-list{
+    height: calc(100vh - 40vh - 56px - 61px);
+  }
+  .menu-btn{
+    display: none!important;
+  }
 }

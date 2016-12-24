@@ -46,6 +46,7 @@ app.controller('MainController', function ($scope, $mdSidenav, $http, $mdToast, 
   function showBus(bus){
     NgMap.getMap().then((map)=>{
       map.setCenter({lat: parseFloat(bus.lat), lng: parseFloat(bus.lon)})
+      map.setZoom(14)
     })
   }
 
