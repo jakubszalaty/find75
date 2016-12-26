@@ -35,12 +35,16 @@ app.get('/', function (req, res) {
 })
 
 app.get('/busStops', function (req, res) {
-
+  // simple security
+  if(!req.headers.referer)
+    return res.status(403).end()
   res.sendFile(__dirname + '/busStops.json')
 })
 
 app.get('/buses', function (req, res) {
-
+  // simple security
+  if(!req.headers.referer)
+    return res.status(403).end()
   // return res.sendFile(__dirname + '/buses.json')
   // if last request was longer than 5s make request again
   // if not print data from cached variable
