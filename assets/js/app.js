@@ -12,19 +12,40 @@ app.config([
 
     $urlRouterProvider.otherwise('/')
 
-    $stateProvider.state('main', {
-      url: '/',
-      views: {
-        'main': {
-          controller: 'MainController as MainCtrl',
-          templateUrl: 'htmls/main.html'
+    $stateProvider
+      .state('main', {
+        url: '/',
+        views: {
+          'main': {
+            controller: 'MainController as MainCtrl',
+            templateUrl: 'htmls/main.html'
+          }
         }
-      }
-    })
+      })
+
+      .state('main.station', {
+        url: 'station/:id',
+        views: {
+          'content': {
+            controller: 'StationController as StationCtrl',
+            templateUrl: 'htmls/station.html'
+          }
+        }
+      })
+
+      .state('main.line', {
+        url: 'line/:id',
+        views: {
+          'content': {
+            controller: 'LineController as LineCtrl',
+            templateUrl: 'htmls/station.html'
+          }
+        }
+      })
+
   }
 ])
 
-app.controller('IndexController', function ($scope) {})
 
 app.controller('MainController', function ($scope, $mdSidenav, $http, $mdToast, NgMap) {
   const vm = this
@@ -37,18 +58,29 @@ app.controller('MainController', function ($scope, $mdSidenav, $http, $mdToast, 
   vm.showBus = showBus
   vm.getSelectedLine = getSelectedLine
   vm.showLine = showLine
+  vm.getAllLines = getAllLines
   vm.busStop = null
   vm.allBuses = false
+
+  let centerLine = false
 
   getBusStops()
 
   getBuses()
 
 
+  function getAllLines(){
+
+    let lines = []
+    lines = _.uniqBy(vm.buses, 'linia')
+    return lines
+  }
+
   function showLine(line){
     vm.busStop = null
     vm.allBuses = false
     vm.selectedLine = line
+    centerLine = true
   }
 
   function getSelectedLine(){
@@ -56,9 +88,31 @@ app.controller('MainController', function ($scope, $mdSidenav, $http, $mdToast, 
     if(!vm.selectedLine)
       return []
 
+    const bounds = new google.maps.LatLngBounds()
+
     const buses = _.filter(vm.buses, (value)=>{
-      return value.linia === vm.selectedLine
+
+      const isSelected = value.linia === vm.selectedLine
+
+      if(centerLine && isSelected){
+        if(value.lat && value.lon){
+          bounds.extend( new google.maps.LatLng(parseFloat(value.lat), parseFloat((value.lon))) )
+        }
+      }
+
+      return isSelected
     })
+
+    if(centerLine){
+      centerLine = false
+
+      NgMap.getMap().then((map)=>{
+        map.setCenter(bounds.getCenter())
+        map.fitBounds(bounds)
+      })
+
+    }
+
     return buses
   }
 
@@ -173,4 +227,27 @@ app.controller('MainController', function ($scope, $mdSidenav, $http, $mdToast, 
   //   }
   // }
 
+})
+
+app.controller('StationController', function ($scope, $mdToast, NgMap) {
+
+})
+
+app.controller('LineController', function ($scope, $mdToast, NgMap) {
+
+})
+
+
+const lines = {
+  anz: 'autobus nocny',
+  adz: 'autobus dzienny zwykły',
+  ada: 'autobus dzienny zastępczy',
+  adp: 'autobus dzienny pospieszny',
+  tdz: 'tramwaj'
+}
+
+app.filter('line', function() {
+  return function(input) {
+    return lines[input]
+  }
 })

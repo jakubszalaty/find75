@@ -8,7 +8,7 @@ md-toolbar md-icon{
 }
 md-list{
   overflow: auto;
-  height: calc(100vh - 40vh - 56px - 53px);
+  height: calc(100vh - 40vh - 56px - 53px - 22px);
 }
 
 .show-all{
@@ -50,11 +50,13 @@ ng-map{
   border-top-color: #000;
 }
 /*normal*/
-.adz{
+.adz,
+.ada{
   background: #03a9f4;
   color: #fff;
 }
-.adz:after{
+.adz:after,
+.ada:after{
   border-top-color: #03a9f4;
 }
 
@@ -109,14 +111,24 @@ md-autocomplete input:-ms-input-placeholder { /* Internet Explorer 10-11 */
   text-decoration: none!important;
 }
 
+.filter-form{
+  width: calc(50% - 8px);
+  display: inline-block;
+}
+.filter-form .md-errors-spacer{
+  display: none;
+}
+
+
 @media (min-width: 960px) {
   ng-map{
     height: 45vh;
   }
   md-list{
-    height: calc(100vh - 45vh - 56px - 61px);
+    height: calc(100vh - 45vh - 56px - 61px - 22px);
   }
   .menu-btn{
     display: none!important;
   }
 }
+

@@ -57,7 +57,7 @@
           md-search-text="searchText"
           md-items="item in MainCtrl.getMatchesStops(searchText)"
           md-item-text="item.nazwa"
-          placeholder="Szukaj">
+          placeholder="Wybierz przystanek">
           <span md-highlight-text="searchText">{{item.nazwa}}</span>
         </md-autocomplete>
 
@@ -92,32 +92,27 @@
         </div>
 
       </ng-map>
-      <md-content flex layout-padding style="overflow: hidden;">
-        <form>
-          <!-- <md-input-container> -->
+      <md-content flex layout-padding style="overflow: hidden; padding-top: 16px;">
+        <form class="filter-form">
+          <md-input-container style="margin:0">
+            <label>Filtr</label>
+            <input ng-model="busFilter">
+          </md-input-container>
+        </form>
+        <form class="filter-form">
           <md-checkbox class="show-all" ng-model="MainCtrl.allBuses" aria-label="Pokaż wszystkie">
             Pokaż wszystkie
           </md-checkbox>
-          <!-- </md-input-container> -->
         </form>
       </md-content>
 
       <!-- <h2>{{MainCtrl.busStop.nazwa}}</h2> -->
 
       <md-divider inset></md-divider>
-      <md-list class="md-dense">
+      <!-- <div ui-view="content"></div> -->
 
-<!--         <md-list-item class="md-3-line" ng-repeat="bus in MainCtrl.getMatchesBuses(MainCtrl.busStop)" ng-click="true">
-          <div class="md-list-item-text">
-            <h3><b>{{bus.linia}}</b> ({{bus.punktualnosc1}})</h3>
-            <p>Z: {{bus.z}}</p>
-            <p>Do: {{bus.do || 'Pętla'}}</p>
-          </div>
-          <md-button ng-click="MainCtrl.showLine(bus.linia)"> Linia </md-button>
-          <md-button ng-click="MainCtrl.showBus(bus)"> Pokaż </md-button>
-          <md-divider inset></md-divider>
-        </md-list-item>
- -->
+      <md-list class="md-dense" ng-if="MainCtrl.busStop">
+
         <md-list-item class="md-3-line" ng-repeat="bus in MainCtrl.getMatchesBuses(MainCtrl.busStop)" ng-click="true">
           <div class="md-list-item-text">
             <h3><b>{{bus.linia}}</b> ({{bus.punktualnosc1}})</h3>
@@ -129,8 +124,19 @@
           <md-divider inset></md-divider>
         </md-list-item>
 
-
       </md-list>
+
+      <md-list class="md-dense" ng-if="!MainCtrl.busStop">
+
+        <md-list-item class="md-3-line" ng-repeat="line in MainCtrl.getAllLines() | filter:{linia: busFilter}" ng-click="MainCtrl.showLine(line.linia)">
+          <div class="md-list-item-text">
+            <h3> Linia: {{line.linia}}</h3>
+            <p> {{line.typlinii | line}} </p>
+          </div>
+          <md-divider inset></md-divider>
+        </md-list-item>
+      </md-list>
+
     </md-content>
   </section>
 
