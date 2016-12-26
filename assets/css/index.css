@@ -41,32 +41,38 @@ ng-map{
   border-right-width: 6px;
 }
 
-.night{
+/*night*/
+.anz{
   background: #000;
   color: #fff;
 }
-.night:after{
+.anz:after{
   border-top-color: #000;
 }
-.normal{
+/*normal*/
+.adz{
   background: #03a9f4;
   color: #fff;
 }
-.normal:after{
+.adz:after{
   border-top-color: #03a9f4;
 }
-.fast{
+
+/*fast*/
+.adp{
   background: #F44336;
   color: #fff;
 }
-.fast:after{
+
+.adp:after{
   border-top-color: #F44336;
 }
-.tram{
+/*tram*/
+.tdz{
   background: #ffc107;
   color: #000;
 }
-.tram:after{
+.tdz:after{
   border-top-color: #ffc107;
 }
 
@@ -81,6 +87,22 @@ md-autocomplete input,
 md-autocomplete md-icon{
   color: #fff!important;
 }
+
+md-autocomplete input::-webkit-input-placeholder{
+  color: #fff!important;
+}
+
+md-autocomplete input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color: #fff!important;
+}
+md-autocomplete input::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: #fff!important;
+  opacity:  1;
+}
+md-autocomplete input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #fff!important;
+}
+
 
 .clear-atag{
   color: rgba(0,0,0,0.87)!important;

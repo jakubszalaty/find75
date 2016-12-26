@@ -35,6 +35,8 @@ app.controller('MainController', function ($scope, $mdSidenav, $http, $mdToast, 
   vm.getMatchesBuses = getMatchesBuses
   vm.setNewCenter = setNewCenter
   vm.showBus = showBus
+  vm.getSelectedLine = getSelectedLine
+  vm.showLine = showLine
   vm.busStop = null
   vm.allBuses = false
 
@@ -42,6 +44,23 @@ app.controller('MainController', function ($scope, $mdSidenav, $http, $mdToast, 
 
   getBuses()
 
+
+  function showLine(line){
+    vm.busStop = null
+    vm.allBuses = false
+    vm.selectedLine = line
+  }
+
+  function getSelectedLine(){
+
+    if(!vm.selectedLine)
+      return []
+
+    const buses = _.filter(vm.buses, (value)=>{
+      return value.linia === vm.selectedLine
+    })
+    return buses
+  }
 
   function showBus(bus){
     NgMap.getMap().then((map)=>{
@@ -96,11 +115,12 @@ app.controller('MainController', function ($scope, $mdSidenav, $http, $mdToast, 
     $http.get('/buses').then((response)=>{
       vm.buses = response.data
       // showToast('Przystanki pobrane')
+    }).catch((err)=>{
+      showToast('Aktualizacja pozycji autobusów nie powiodła się')
+    }).then(()=>{
       setTimeout(()=>{
         getBuses()
       },5000)
-    }).catch((err)=>{
-      showToast('Aktualizacja pozycji autobusów nie powiodła się')
     })
   }
 
