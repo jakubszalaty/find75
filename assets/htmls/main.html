@@ -70,7 +70,7 @@
       </md-toolbar>
 
       <ng-map center="[53.430434,14.5455763]" zoom="15" disable-default-u-i="true">
-        <!-- <marker position="current" animation="Animation.BOUNCE" centered="true"></marker> -->
+        <marker position="current" animation="Animation.BOUNCE" centered="true"></marker>
         <traffic-layer></traffic-layer>
         <marker ng-if="MainCtrl.busStop" position="{{MainCtrl.busStop.szerokoscgeo}},{{MainCtrl.busStop.dlugoscgeo}}" title="{{MainCtrl.busStop.nazwa}}"></marker>
         <!-- <marker ng-repeat="bus in MainCtrl.getMatchesBuses(MainCtrl.busStop)" position="{{bus.lat}},{{bus.lon}}"></marker> -->
