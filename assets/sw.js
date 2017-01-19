@@ -15,8 +15,8 @@ self.addEventListener('install', function(e) {
         '/node_modules/angular-ui-router/release/angular-ui-router.js',
         '/node_modules/angular-material/angular-material.js',
         '/node_modules/ngmap/build/scripts/ng-map.js',
-        '/node_modules/moment/moment.js',
-        '/node_modules/moment/locale/pl.js',
+        // '/node_modules/moment/moment.js',
+        // '/node_modules/moment/locale/pl.js',
         // other js
         // '//maps.google.com/maps/api/js?key=AIzaSyCMYoOUapEGWW2Q9H1MIo4Q3b2AkHJZibs',
         '/node_modules/lodash/lodash.js',
