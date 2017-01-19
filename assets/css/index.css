@@ -132,3 +132,9 @@ md-autocomplete input:-ms-input-placeholder { /* Internet Explorer 10-11 */
   }
 }
 
+
+.fab-map{
+  position: absolute;
+  right: 8px;
+  top: calc(40vh - 8px);
+}

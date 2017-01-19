@@ -46,6 +46,11 @@ app.config([
   }
 ])
 
+app.config(function($mdThemingProvider) {
+  $mdThemingProvider.theme('default')
+    .accentPalette('pink')
+})
+
 
 app.controller('MainController', function ($scope, $mdSidenav, $http, $mdToast, NgMap) {
   const vm = this
@@ -59,6 +64,7 @@ app.controller('MainController', function ($scope, $mdSidenav, $http, $mdToast, 
   vm.getSelectedLine = getSelectedLine
   vm.showLine = showLine
   vm.getAllLines = getAllLines
+  vm.setCurrentPosCenter = setCurrentPosCenter
   vm.busStop = null
   vm.allBuses = false
   vm.busRoute = null
@@ -131,6 +137,18 @@ app.controller('MainController', function ($scope, $mdSidenav, $http, $mdToast, 
     NgMap.getMap().then((map)=>{
       if(vm.busStop){
         map.setCenter({lat:vm.busStop.szerokoscgeo, lng: vm.busStop.dlugoscgeo})
+        map.setZoom(15)
+      }
+    })
+
+    return
+  }
+
+  function setCurrentPosCenter(){
+    NgMap.getMap().then((map)=>{
+      const currentPos = map.markers[0]
+      if(currentPos){
+        map.setCenter({lat:currentPos.getPosition().lat(), lng: currentPos.getPosition().lng()})
         map.setZoom(15)
       }
     })

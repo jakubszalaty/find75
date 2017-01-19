@@ -62,12 +62,14 @@
         </md-autocomplete>
 
         <span flex="" class="flex"></span>
-          <!-- <md-button class="md-icon-button" aria-label="more_vert">
-            <md-icon aria-label="more_vert" class="material-icons">more_vert</md-icon>
-          </md-button> -->
+
+        <!-- <md-button class="md-icon-button" aria-label="more_vert">
+          <md-icon aria-label="more_vert" class="material-icons">more_vert</md-icon>
+        </md-button> -->
 
         </div>
       </md-toolbar>
+
 
       <ng-map center="[53.430434,14.5455763]" zoom="15" disable-default-u-i="true">
         <marker position="current" animation="Animation.BOUNCE" centered="true"></marker>
@@ -102,9 +104,11 @@
 
         </div>
 
-
-
       </ng-map>
+      <md-button class="md-fab md-icon-button fab-map md-accent" aria-label="gps_fixed" ng-click="MainCtrl.setCurrentPosCenter()">
+        <md-icon aria-label="gps_fixed" class="material-icons">gps_fixed</md-icon>
+      </md-button>
+
       <md-content flex layout-padding style="overflow: hidden; padding-top: 16px;">
         <form class="filter-form">
           <md-input-container style="margin:0">
