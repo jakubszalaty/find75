@@ -138,3 +138,8 @@ md-autocomplete input:-ms-input-placeholder { /* Internet Explorer 10-11 */
   right: 8px;
   top: calc(40vh - 8px);
 }
+
+.time-state{
+  font-size: 14px;
+  line-height: 14px;
+}

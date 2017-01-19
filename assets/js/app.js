@@ -62,18 +62,22 @@ app.controller('MainController', function ($scope, $mdSidenav, $http, $mdToast, 
   vm.setNewCenter = setNewCenter
   vm.showBus = showBus
   vm.getSelectedLine = getSelectedLine
+  vm.getLineBuses = getLineBuses
   vm.showLine = showLine
   vm.getAllLines = getAllLines
   vm.setCurrentPosCenter = setCurrentPosCenter
+
   vm.busStop = null
   vm.allBuses = false
   vm.busRoute = null
+
 
   let centerLine = false
 
   getBusStops()
 
   getBuses()
+
 
   function getAllLines(){
 
@@ -117,7 +121,10 @@ app.controller('MainController', function ($scope, $mdSidenav, $http, $mdToast, 
 
       NgMap.getMap().then((map)=>{
         map.setCenter(bounds.getCenter())
-        map.fitBounds(bounds)
+        if(buses.length > 1)
+          map.fitBounds(bounds)
+        else
+          map.setZoom(15)
       })
 
     }
@@ -165,6 +172,16 @@ app.controller('MainController', function ($scope, $mdSidenav, $http, $mdToast, 
 
     const buses = _.filter(vm.buses, (value)=>{
       return value.z === busStop.nazwa || value.do === busStop.nazwa
+    })
+    return buses
+  }
+
+  function getLineBuses(line){
+    if(!line)
+      return []
+
+    const buses = _.filter(vm.buses, (value)=>{
+      return value.linia === line
     })
     return buses
   }

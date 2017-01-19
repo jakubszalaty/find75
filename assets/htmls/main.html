@@ -62,7 +62,6 @@
         </md-autocomplete>
 
         <span flex="" class="flex"></span>
-
         <!-- <md-button class="md-icon-button" aria-label="more_vert">
           <md-icon aria-label="more_vert" class="material-icons">more_vert</md-icon>
         </md-button> -->
@@ -128,7 +127,7 @@
       <md-divider inset></md-divider>
       <!-- <div ui-view="content"></div> -->
 
-      <md-list class="md-dense" ng-if="MainCtrl.busStop">
+      <md-list class="md-dense" ng-if="MainCtrl.busStop && !MainCtrl.selectedLine">
 
         <md-list-item class="md-3-line" ng-repeat="bus in MainCtrl.getMatchesBuses(MainCtrl.busStop)" ng-click="true">
           <div class="md-list-item-text">
@@ -143,7 +142,7 @@
 
       </md-list>
 
-      <md-list class="md-dense" ng-if="!MainCtrl.busStop">
+      <md-list class="md-dense" ng-if="!MainCtrl.busStop && !MainCtrl.selectedLine">
 
         <md-list-item class="md-3-line" ng-repeat="line in MainCtrl.getAllLines() | filter:{linia: busFilter}" ng-click="MainCtrl.showLine(line.linia,line.gmvid)">
           <div class="md-list-item-text">
@@ -153,6 +152,22 @@
           <md-divider inset></md-divider>
         </md-list-item>
       </md-list>
+
+      <md-list class="md-dense" ng-if="MainCtrl.selectedLine">
+        <md-button ng-click="MainCtrl.selectedLine=null"> Wróć </md-button>
+        <md-list-item class="md-3-line" ng-repeat="bus in MainCtrl.getLineBuses(MainCtrl.selectedLine)" ng-click="true">
+          <div class="md-list-item-text">
+            <h3><b>{{bus.linia}}</b> ({{bus.punktualnosc1}})</h3>
+            <p>Z: {{bus.z}}</p>
+            <p>Do: {{bus.do || 'Pętla'}}</p>
+          </div>
+          <md-button ng-click="MainCtrl.showLine(bus.linia,bus.gmvid)"> Linia </md-button>
+          <md-button ng-click="MainCtrl.showBus(bus)"> Pokaż </md-button>
+          <md-divider inset></md-divider>
+        </md-list-item>
+
+      </md-list>
+
 
     </md-content>
   </section>
