@@ -89,7 +89,20 @@
               {{bus.linia}}
             </div>
           </custom-marker>
+
+          <shape name="polyline"
+            ng-repeat="stringLine in MainCtrl.busRoute"
+            path="{{stringLine}}"
+            geodesic="true"
+            stroke-color="#242e7d"
+            stroke-opacity="1.0"
+            stroke-weight="4"
+            >
+          </shape>
+
         </div>
+
+
 
       </ng-map>
       <md-content flex layout-padding style="overflow: hidden; padding-top: 16px;">
@@ -119,7 +132,7 @@
             <p>Z: {{bus.z}}</p>
             <p>Do: {{bus.do || 'Pętla'}}</p>
           </div>
-          <md-button ng-click="MainCtrl.showLine(bus.linia)"> Linia </md-button>
+          <md-button ng-click="MainCtrl.showLine(bus.linia,bus.gmvid)"> Linia </md-button>
           <md-button ng-click="MainCtrl.showBus(bus)"> Pokaż </md-button>
           <md-divider inset></md-divider>
         </md-list-item>
@@ -128,7 +141,7 @@
 
       <md-list class="md-dense" ng-if="!MainCtrl.busStop">
 
-        <md-list-item class="md-3-line" ng-repeat="line in MainCtrl.getAllLines() | filter:{linia: busFilter}" ng-click="MainCtrl.showLine(line.linia)">
+        <md-list-item class="md-3-line" ng-repeat="line in MainCtrl.getAllLines() | filter:{linia: busFilter}" ng-click="MainCtrl.showLine(line.linia,line.gmvid)">
           <div class="md-list-item-text">
             <h3> Linia: {{line.linia}}</h3>
             <p> {{line.typlinii | line}} </p>

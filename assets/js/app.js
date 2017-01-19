@@ -61,13 +61,13 @@ app.controller('MainController', function ($scope, $mdSidenav, $http, $mdToast, 
   vm.getAllLines = getAllLines
   vm.busStop = null
   vm.allBuses = false
+  vm.busRoute = null
 
   let centerLine = false
 
   getBusStops()
 
   getBuses()
-
 
   function getAllLines(){
 
@@ -76,11 +76,14 @@ app.controller('MainController', function ($scope, $mdSidenav, $http, $mdToast, 
     return lines
   }
 
-  function showLine(line){
+  function showLine(line,gmvid){
     vm.busStop = null
     vm.allBuses = false
     vm.selectedLine = line
     centerLine = true
+    if(gmvid)
+      getBusRoute(gmvid)
+
   }
 
   function getSelectedLine(){
@@ -178,6 +181,14 @@ app.controller('MainController', function ($scope, $mdSidenav, $http, $mdToast, 
     })
   }
 
+  function getBusRoute(gmvid){
+    $http.get(`/busRoute?gmvid=${gmvid}`).then((response)=>{
+      vm.busRoute = response.data
+      // showToast('Przystanki pobrane')
+    }).catch((err)=>{
+      showToast('Nie można pobrać trasy lini')
+    })
+  }
   function buildToggler(componentId) {
     return function() {
       $mdSidenav(componentId).toggle()

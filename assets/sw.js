@@ -27,7 +27,7 @@ self.addEventListener('install', function(e) {
         // manifest
         '/manifest.json',
         // service worker
-        // '/sw.js',
+        // '/sw.js'
       ])
     })
     )
@@ -57,10 +57,9 @@ self.addEventListener('install', function(e) {
 
 self.addEventListener('fetch', function(event) {
   // console.log(event.request)
-  if( event.request.url.match(/views\//g) ){
+  if( event.request.url.match(/htmls\//g) ){
 
     event.respondWith(
-
       caches.match(event.request).then(function(response) {
 
         caches.open(CACHE_NAME_DYNAMIC).then(function(cache) {
