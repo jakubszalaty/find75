@@ -47,7 +47,7 @@ All bugs, feature requests, pull requests, feedback, etc., are welcome. [Create 
 - ~~install angular~~
 - ~~get data from [ZDITM](http://www.zditm.szczecin.pl/) and parse it~~
 - ~~gui with select which allow to show postion of current station~~
-- gui with select which allow to show postion of current line
+- ~~gui with select which allow to show postion of current line~~
 - ~~add google-map or open street map~~
-- show selected buses on map
+- ~~show selected buses on map~~
 - ~~show buses based on bus station~~
