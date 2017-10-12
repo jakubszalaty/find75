@@ -71,7 +71,6 @@ app.get('/buses', (req, res) => {
     if (Math.abs(new Date().getTime() - cachedData.time) > 5000) {
         getBuses()
             .then(data => {
-                // console.log('Get data from server')
                 cachedData.buses = data
                 cachedData.time = new Date()
                 return res.json(data)
@@ -80,7 +79,6 @@ app.get('/buses', (req, res) => {
                 return res.status(500).json({ msg: 'Error' })
             })
     } else {
-        // console.log('Get cached data')
         return res.json(cachedData.buses)
     }
 })
