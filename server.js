@@ -13,7 +13,7 @@ const _ = require('lodash')
  * Set port to listening
  * @type {Number}
  */
-const PORT = Number(process.env.PORT) || 80
+const PORT = Number(process.env.port) || Number(process.env.PORT) || 8080
 
 /**
  * Object for cached data from remote server
