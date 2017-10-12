@@ -86,15 +86,17 @@ app.get('/buses', (req, res) => {
 /**
  * Setup http server
  */
-const server = http.createServer(app).listen(PORT)
-
-server.on('request', (req, res) => {
-    console.log(`${new Date().toISOString().replace(/T|Z/g, ' ')}: ${res.req.method} : ${res.req.url} `)
-
+const server = http.createServer(app).listen(PORT, 1, () => {
+    // Init unpdate busStops.json
+    updateBusStops()
     // Update busStops.json ones per hour
     setInterval(() => {
         updateBusStops()
     }, 1000 * 60 * 60)
+})
+
+server.on('request', (req, res) => {
+    console.log(`${new Date().toISOString().replace(/T|Z/g, ' ')}: ${res.req.method} : ${res.req.url} `)
 })
 
 /**
@@ -108,8 +110,8 @@ function getBusStops() {
     }
     return new Promise((resolve, reject) => {
         request(obj)
-            .then(response => {
-                let data = _.uniqBy(response, 'nrzespolu')
+            .then(res => {
+                let data = _.uniqBy(res, 'nrzespolu')
                 return resolve(data)
             })
             .catch(err => {
@@ -149,10 +151,10 @@ function getBusRoute(gmvid) {
     }
     return new Promise((resolve, reject) => {
         request(obj)
-            .then((res) => {
+            .then(res => {
                 return resolve(res)
             })
-            .catch((err) => {
+            .catch(err => {
                 return reject(err)
             })
     })
@@ -164,6 +166,6 @@ function getBusRoute(gmvid) {
  */
 function updateBusStops() {
     return getBusStops().then(data => {
-        fs.writeFileSync('busStops.json', data)
+        fs.writeFileSync('busStops.json', JSON.stringify(data, null, 4))
     })
 }

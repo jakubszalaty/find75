@@ -2896,6 +2896,14 @@
         "nrslupka": "21"
     },
     {
+        "id": 962,
+        "szerokoscgeo": 53.396881,
+        "dlugoscgeo": 14.607416,
+        "nazwa": "Księżnej Anny",
+        "nrzespolu": 606,
+        "nrslupka": "11"
+    },
+    {
         "id": 965,
         "szerokoscgeo": 53.420044,
         "dlugoscgeo": 14.560431,
@@ -4513,8 +4521,8 @@
     },
     {
         "id": 1425,
-        "szerokoscgeo": 53.444092,
-        "dlugoscgeo": 14.397242,
+        "szerokoscgeo": 53.44479,
+        "dlugoscgeo": 14.397739,
         "nazwa": "Lubieszyn Targowisko",
         "nrzespolu": 968,
         "nrslupka": "11"
@@ -4736,14 +4744,6 @@
         "nrslupka": "11"
     },
     {
-        "id": 1479,
-        "szerokoscgeo": 53.398636,
-        "dlugoscgeo": 14.487531,
-        "nazwa": "Smoleńskiej",
-        "nrzespolu": 243,
-        "nrslupka": "11"
-    },
-    {
         "id": 1482,
         "szerokoscgeo": 53.455223,
         "dlugoscgeo": 14.450486,
@@ -4797,6 +4797,126 @@
         "dlugoscgeo": 14.562287,
         "nazwa": "Przychodnia Portowa",
         "nrzespolu": 628,
+        "nrslupka": "11"
+    },
+    {
+        "id": 1493,
+        "szerokoscgeo": 53.360813,
+        "dlugoscgeo": 14.601275,
+        "nazwa": "Chełmińska",
+        "nrzespolu": 870,
+        "nrslupka": "11"
+    },
+    {
+        "id": 1495,
+        "szerokoscgeo": 53.359055,
+        "dlugoscgeo": 14.604059,
+        "nazwa": "Wschodnia",
+        "nrzespolu": 871,
+        "nrslupka": "11"
+    },
+    {
+        "id": 1497,
+        "szerokoscgeo": 53.357868,
+        "dlugoscgeo": 14.604955,
+        "nazwa": "Grzegorzewskiej",
+        "nrzespolu": 872,
+        "nrslupka": "11"
+    },
+    {
+        "id": 1498,
+        "szerokoscgeo": 53.36095,
+        "dlugoscgeo": 14.60363,
+        "nazwa": "Ruda",
+        "nrzespolu": 873,
+        "nrslupka": "31"
+    },
+    {
+        "id": 1500,
+        "szerokoscgeo": 53.362759,
+        "dlugoscgeo": 14.601702,
+        "nazwa": "Chromowa",
+        "nrzespolu": 874,
+        "nrslupka": "11"
+    },
+    {
+        "id": 1502,
+        "szerokoscgeo": 53.362408,
+        "dlugoscgeo": 14.606546,
+        "nazwa": "Sąsiedzka",
+        "nrzespolu": 875,
+        "nrslupka": "11"
+    },
+    {
+        "id": 1504,
+        "szerokoscgeo": 53.362572,
+        "dlugoscgeo": 14.610599,
+        "nazwa": "Mielecka",
+        "nrzespolu": 876,
+        "nrslupka": "11"
+    },
+    {
+        "id": 1506,
+        "szerokoscgeo": 53.362644,
+        "dlugoscgeo": 14.615639,
+        "nazwa": "Chojnicka",
+        "nrzespolu": 877,
+        "nrslupka": "41"
+    },
+    {
+        "id": 1508,
+        "szerokoscgeo": 53.366772,
+        "dlugoscgeo": 14.611065,
+        "nazwa": "Ostowa",
+        "nrzespolu": 878,
+        "nrslupka": "11"
+    },
+    {
+        "id": 1509,
+        "szerokoscgeo": 53.36829,
+        "dlugoscgeo": 14.613136,
+        "nazwa": "Lechicka",
+        "nrzespolu": 879,
+        "nrslupka": "11"
+    },
+    {
+        "id": 1511,
+        "szerokoscgeo": 53.394169,
+        "dlugoscgeo": 14.439899,
+        "nazwa": "Będargowo 12",
+        "nrzespolu": 696,
+        "nrslupka": "11"
+    },
+    {
+        "id": 1517,
+        "szerokoscgeo": 53.467644,
+        "dlugoscgeo": 14.558703,
+        "nazwa": "Królewskiego",
+        "nrzespolu": 485,
+        "nrslupka": "11"
+    },
+    {
+        "id": 1519,
+        "szerokoscgeo": 53.471035,
+        "dlugoscgeo": 14.562134,
+        "nazwa": "Świergotki",
+        "nrzespolu": 486,
+        "nrslupka": "11"
+    },
+    {
+        "id": 1520,
+        "szerokoscgeo": 53.470348,
+        "dlugoscgeo": 14.564789,
+        "nazwa": "Przepiórki",
+        "nrzespolu": 487,
+        "nrslupka": "11"
+    },
+    {
+        "id": 1532,
+        "szerokoscgeo": 53.42712,
+        "dlugoscgeo": 14.461589,
+        "nazwa": "Mierzyn Truskawkowa",
+        "nrzespolu": 695,
         "nrslupka": "11"
     }
 ]
