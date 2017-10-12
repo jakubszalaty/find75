@@ -5,6 +5,7 @@
  */
 const http = require('http')
 const express = require('express')
+const fs = require('fs')
 const request = require('request-promise')
 const _ = require('lodash')
 
@@ -91,6 +92,11 @@ const server = http.createServer(app).listen(PORT)
 
 server.on('request', (req, res) => {
     console.log(`${new Date().toISOString().replace(/T|Z/g, ' ')}: ${res.req.method} : ${res.req.url} `)
+
+    // Update busStops.json ones per hour
+    setInterval(() => {
+        updateBusStops()
+    }, 1000 * 60 * 60)
 })
 
 /**
@@ -145,11 +151,21 @@ function getBusRoute(gmvid) {
     }
     return new Promise((resolve, reject) => {
         request(obj)
-            .then(function(response) {
-                return resolve(response)
+            .then((res) => {
+                return resolve(res)
             })
-            .catch(function(err) {
+            .catch((err) => {
                 return reject(err)
             })
+    })
+}
+
+/**
+ * Update bus stops positions
+ * @return {Promise}
+ */
+function updateBusStops() {
+    return getBusStops().then(data => {
+        fs.writeFileSync('busStops.json', data)
     })
 }
